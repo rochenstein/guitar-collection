@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Guitars — The Collection</title>
+  <title>The Collection — Will's Guitars</title>
+  <meta name="description" content="A personal archive of 25 electric and acoustic guitars — their stories, sounds, and provenance.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <nav class="site-nav">
     <a href="index.html" class="nav-wordmark">The<span>&nbsp;Collection</span></a>
     <ul class="nav-links">
@@ -17,40 +19,89 @@
     </ul>
   </nav>
 
-  <div style="padding-top:5rem;">
-    <section class="section">
-      <div class="section-header">
-        <div>
-          <div class="label" style="margin-bottom:0.5rem">Every instrument</div>
-          <h1 class="section-title">The guitars</h1>
-        </div>
-        <div class="section-count" id="guitar-count"></div>
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow"><span class="label">A personal archive</span></div>
+      <h1 class="hero-title">Twenty-five<br><em>guitars.</em><br>Each with a story.</h1>
+      <p class="hero-sub">A working guitarist's collection, documented — the instruments, their origins, and the improbable circumstances by which they all ended up in the same room in Dublin.</p>
+      <div class="hero-stats">
+        <div><div class="hero-stat-num">25</div><div class="hero-stat-label">Instruments</div></div>
+        <div><div class="hero-stat-num">30yrs</div><div class="hero-stat-label">Oldest to newest</div></div>
+        <div><div class="hero-stat-num">10</div><div class="hero-stat-label">Makes represented</div></div>
       </div>
-      <div class="filter-bar" id="filter-bar">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="electric">Electric</button>
-        <button class="filter-btn" data-filter="acoustic">Acoustic</button>
-        <button class="filter-btn" data-filter="bass">Bass</button>
-        <button class="filter-btn" data-filter="humbucker">Humbucker</button>
-        <button class="filter-btn" data-filter="single-coil">Single coil</button>
-        <button class="filter-btn" data-filter="active-pickups">Active pickups</button>
-        <button class="filter-btn" data-filter="semi-hollow">Semi-hollow</button>
-        <button class="filter-btn" data-filter="gibson">Gibson</button>
-        <button class="filter-btn" data-filter="fender">Fender</button>
-        <button class="filter-btn" data-filter="esp">ESP</button>
-        <button class="filter-btn" data-filter="japan">Made in Japan</button>
+      <a href="collection.html" class="hero-cta">Browse the collection <span>→</span></a>
+    </div>
+    <div class="hero-image">
+      <div class="hero-image-placeholder">
+        <span class="hero-guitar-silhouette">🎸</span>
       </div>
-      <div class="collection-grid" id="collection-grid"></div>
-    </section>
+      <div class="hero-image-caption">
+        <p><strong>Gibson ES-345, 2024</strong> — Latest acquisition</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <span>Gibson</span><span class="accent">●</span>
+      <span>Fender</span><span class="accent">●</span>
+      <span>ESP</span><span class="accent">●</span>
+      <span>Ibanez</span><span class="accent">●</span>
+      <span>PRS</span><span class="accent">●</span>
+      <span>G&amp;L</span><span class="accent">●</span>
+      <span>Yamaha</span><span class="accent">●</span>
+      <span>Taylor</span><span class="accent">●</span>
+      <span>Washburn</span><span class="accent">●</span>
+      <span>Squier</span><span class="accent">●</span>
+      <span>ES-345</span><span class="accent">●</span>
+      <span>Les Paul</span><span class="accent">●</span>
+      <span>Explorer</span><span class="accent">●</span>
+      <span>Jazzmaster</span><span class="accent">●</span>
+      <span>Telecaster</span><span class="accent">●</span>
+      <span>Revstar</span><span class="accent">●</span>
+      <span>Hummingbird</span><span class="accent">●</span>
+    </div>
   </div>
+
+  <section class="featured">
+    <div class="featured-inner">
+      <div class="featured-image">🎸</div>
+      <div class="featured-content">
+        <div class="featured-label">Latest acquisition</div>
+        <h2 class="featured-title">Gibson ES-345,<br>2024</h2>
+        <p class="featured-excerpt">I had always wanted a semi-hollow. The 345 is essentially a 335 in fancier clothing — Vintage Burst, chrome hardware, split parallelogram inlays. The first semi-hollow in the collection and immediately one of the favourites.</p>
+        <div class="featured-specs">
+          <div class="spec-item"><div class="spec-label">Year</div><div class="spec-value">2024</div></div>
+          <div class="spec-item"><div class="spec-label">Finish</div><div class="spec-value">Vintage Burst</div></div>
+          <div class="spec-item"><div class="spec-label">Body</div><div class="spec-value">Semi-hollow maple</div></div>
+          <div class="spec-item"><div class="spec-label">Source</div><div class="spec-value">Peach Guitars, UK</div></div>
+        </div>
+        <a href="pages/guitar.html?id=gibson-es345-2024" class="featured-link">Read the full story →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <div class="label" style="margin-bottom:0.5rem">The archive</div>
+        <h2 class="section-title fade-up">Recent additions</h2>
+      </div>
+      <a href="collection.html" class="view-all">View all guitars →</a>
+    </div>
+    <div class="collection-grid" id="recent-grid"></div>
+  </section>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-brand-name">The Collection</div>
+        <p class="footer-blurb">A personal archive of electric and acoustic guitars, built with the help of AI tools and a lifelong passion for the instrument.</p>
+      </div>
       <div>
         <div class="footer-col-title">Pages</div>
         <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Guitars</a></li>
           <li><a href="timeline.html">Timeline</a></li>
           <li><a href="sounds.html">Sounds</a></li>
           <li><a href="about.html">About</a></li>
@@ -59,52 +110,19 @@
       <div>
         <div class="footer-col-title">Elsewhere</div>
         <ul class="footer-links">
-          <li><a href="#" target="_blank">YouTube</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/Rochenstein" target="_blank">YouTube</a></li>
+          <li><a href="https://www.linkedin.com/in/willroche/" target="_blank">LinkedIn</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+    <div class="footer-bottom">
+      <span>Built with Claude · Dublin, Ireland</span>
+      <span>© 2025</span>
+    </div>
   </footer>
 
   <script src="js/guitars.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    let activeFilter = 'all';
-    const grid = document.getElementById('collection-grid');
-    const countEl = document.getElementById('guitar-count');
-
-    function renderCards(list) {
-      grid.innerHTML = list.map(g => `
-        <a href="pages/guitar.html?id=${g.id}" class="guitar-card">
-          <div class="guitar-card-image">
-            <div class="guitar-card-image-placeholder">${g.emoji}</div>
-            <div class="guitar-card-number">${g.number}</div>
-          </div>
-          <div class="guitar-card-body">
-            <div class="guitar-card-make">${g.make}</div>
-            <div class="guitar-card-name">${g.model}</div>
-            <div class="guitar-card-meta">
-              <span>${g.year || 'c.' + g.acquiredYear} · ${g.country}</span>
-              <span>${g.acquired}</span>
-            </div>
-          </div>
-        </a>`).join('');
-      countEl.textContent = `${list.length} instrument${list.length !== 1 ? 's' : ''}`;
-    }
-
-    function applyFilter(tag) {
-      activeFilter = tag;
-      const filtered = tag === 'all' ? guitars : guitars.filter(g => g.tags.includes(tag));
-      renderCards(filtered);
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === tag));
-    }
-
-    document.getElementById('filter-bar').addEventListener('click', e => {
-      if (e.target.matches('.filter-btn')) applyFilter(e.target.dataset.filter);
-    });
-
-    renderCards(guitars);
-  </script>
+  <script src="js/home.js"></script>
 </body>
 </html>
