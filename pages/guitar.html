@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guitar — The Collection</title>
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .video-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .video-tab {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      padding: 0.35rem 0.8rem;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.15);
+      color: rgba(247,244,238,0.5);
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+    }
+    .video-tab:hover { border-color: rgba(255,255,255,0.4); color: var(--paper); }
+    .video-tab.active { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+  </style>
 </head>
 <body>
 
@@ -44,10 +66,7 @@
       <div class="label" style="color:var(--gold);">Hear it</div>
       <h2>Sounds &amp; video</h2>
     </div>
-    <div class="video-grid">
-      <div id="video-container"></div>
-      <div id="audio-container"></div>
-    </div>
+    <div id="video-container"></div>
   </div>
 
   <div class="prev-next" id="prev-next"></div>
@@ -88,14 +107,14 @@
       document.getElementById('hero-emoji').style.cssText = 'font-size:14rem;opacity:0.18;';
 
       const specs = [
-        { label: 'Year', value: guitar.year || 'Unknown' },
-        { label: 'Country', value: guitar.country },
-        { label: 'Finish', value: guitar.finish || 'Unknown' },
+        { label: 'Year',      value: guitar.year || 'Unknown' },
+        { label: 'Country',   value: guitar.country },
+        { label: 'Finish',    value: guitar.finish || 'Unknown' },
         { label: 'Condition', value: guitar.condition || 'Good' },
-        { label: 'Body', value: guitar.body },
-        { label: 'Neck', value: guitar.neck },
-        { label: 'Pickups', value: guitar.pickups },
-        { label: 'Acquired', value: guitar.acquired },
+        { label: 'Body',      value: guitar.body },
+        { label: 'Neck',      value: guitar.neck },
+        { label: 'Pickups',   value: guitar.pickups },
+        { label: 'Acquired',  value: guitar.acquired },
       ];
 
       document.getElementById('detail-specs').innerHTML = specs.map(s => `
@@ -107,33 +126,60 @@
       document.getElementById('guitar-story').innerHTML = guitar.story
         .trim().split(/\n\s*\n/).map(p => `<p>${p.trim()}</p>`).join('');
 
+      // Video section
       const videoContainer = document.getElementById('video-container');
-      if (guitar.videoId) {
-        videoContainer.innerHTML = `<div class="video-embed"><iframe src="https://www.youtube.com/embed/${guitar.videoId}" title="${guitar.make} ${guitar.model}" allowfullscreen></iframe></div>`;
-      } else {
-        videoContainer.innerHTML = `<div style="background:rgba(255,255,255,0.05);padding:3rem 2rem;text-align:center;border:1px solid rgba(255,255,255,0.08)"><div class="label" style="color:rgba(247,244,238,0.3);margin-bottom:0.75rem">Video coming</div><p style="font-size:0.85rem;color:rgba(247,244,238,0.4)">Add a YouTube video ID to guitars.js to embed here.</p></div>`;
-      }
+      const videos = guitar.videos || [];
 
-      const audioContainer = document.getElementById('audio-container');
-      if (guitar.audioSamples && guitar.audioSamples.length) {
-        audioContainer.innerHTML = `
-          <div class="label" style="color:var(--gold);margin-bottom:1rem">Audio samples</div>
-          <div class="audio-samples">${guitar.audioSamples.map(s => `
-            <div class="audio-sample">
-              <button class="audio-play-btn">▶</button>
-              <span class="audio-sample-name">${s.name}</span>
-              <span class="audio-sample-duration">${s.duration}</span>
-            </div>`).join('')}
+      if (videos.length === 0) {
+        videoContainer.innerHTML = `
+          <div style="background:rgba(255,255,255,0.05);padding:3rem 2rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+            <div class="label" style="color:rgba(247,244,238,0.3);margin-bottom:0.75rem">Video coming</div>
+            <p style="font-size:0.85rem;color:rgba(247,244,238,0.4)">Add a video entry to guitars.js to embed here.</p>
+          </div>`;
+      } else if (videos.length === 1) {
+        videoContainer.innerHTML = `
+          <p style="font-family:var(--font-mono);font-size:0.7rem;color:var(--gold);letter-spacing:0.08em;margin-bottom:1rem;">${videos[0].title}</p>
+          <div class="video-embed" style="max-width:800px;">
+            <iframe src="https://www.youtube.com/embed/${videos[0].id}" title="${videos[0].title}" allowfullscreen></iframe>
           </div>`;
       } else {
-        audioContainer.innerHTML = `<p style="font-size:0.78rem;color:rgba(247,244,238,0.35);font-family:var(--font-mono);margin-top:1rem;">Add audio samples to guitars.js</p>`;
+        videoContainer.innerHTML = `
+          <div class="video-tabs" id="video-tabs">
+            ${videos.map((v, i) => `<button class="video-tab ${i === 0 ? 'active' : ''}" data-index="${i}">${v.title}</button>`).join('')}
+          </div>
+          <div class="video-embed" style="max-width:800px;">
+            <iframe id="video-iframe" src="https://www.youtube.com/embed/${videos[0].id}" title="${videos[0].title}" allowfullscreen></iframe>
+          </div>`;
+
+        document.getElementById('video-tabs').addEventListener('click', e => {
+          if (!e.target.matches('.video-tab')) return;
+          const i = parseInt(e.target.dataset.index);
+          document.querySelectorAll('.video-tab').forEach(t => t.classList.remove('active'));
+          e.target.classList.add('active');
+          const iframe = document.getElementById('video-iframe');
+          iframe.src = `https://www.youtube.com/embed/${videos[i].id}`;
+          iframe.title = videos[i].title;
+        });
       }
 
+      // Prev / Next
       const prev = guitars[idx - 1];
       const next = guitars[idx + 1];
       document.getElementById('prev-next').innerHTML = `
-        ${prev ? `<a href="guitar.html?id=${prev.id}" class="prev-next-item"><div class="prev-next-dir">← Previous</div><div class="prev-next-name">${prev.make} ${prev.model}</div><div class="label">${prev.year || prev.acquiredYear}</div></a>` : '<div class="prev-next-item" style="opacity:0.2"><div class="prev-next-dir">← Previous</div><div class="prev-next-name">First guitar</div></div>'}
-        ${next ? `<a href="guitar.html?id=${next.id}" class="prev-next-item"><div class="prev-next-dir">Next →</div><div class="prev-next-name">${next.make} ${next.model}</div><div class="label">${next.year || next.acquiredYear}</div></a>` : '<div class="prev-next-item" style="opacity:0.2;text-align:right;align-items:flex-end"><div class="prev-next-dir">Next →</div><div class="prev-next-name">Last guitar</div></div>'}`;
+        ${prev
+          ? `<a href="guitar.html?id=${prev.id}" class="prev-next-item">
+               <div class="prev-next-dir">← Previous</div>
+               <div class="prev-next-name">${prev.make} ${prev.model}</div>
+               <div class="label">${prev.year || prev.acquiredYear}</div>
+             </a>`
+          : '<div class="prev-next-item" style="opacity:0.2"><div class="prev-next-dir">← Previous</div><div class="prev-next-name">First guitar</div></div>'}
+        ${next
+          ? `<a href="guitar.html?id=${next.id}" class="prev-next-item">
+               <div class="prev-next-dir">Next →</div>
+               <div class="prev-next-name">${next.make} ${next.model}</div>
+               <div class="label">${next.year || next.acquiredYear}</div>
+             </a>`
+          : '<div class="prev-next-item" style="opacity:0.2;text-align:right;align-items:flex-end"><div class="prev-next-dir">Next →</div><div class="prev-next-name">Last guitar</div></div>'}`;
     }
   </script>
 </body>
