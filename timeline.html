@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline — The Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .timeline-page { padding-top: 5rem; }
+    .timeline-intro { padding: clamp(3rem,7vw,5rem) clamp(1.5rem,5vw,4rem) clamp(2rem,4vw,3rem); max-width: 56ch; }
+    .timeline-intro h1 { font-size: clamp(2rem,5vw,3.5rem); margin-bottom: 1rem; }
+    .timeline-intro p { color: var(--ink-soft); font-size: 1rem; font-weight: 300; }
+    .timeline-wrap { display: grid; grid-template-columns: 180px 1fr; }
+    .timeline-years { background: var(--ink); position: sticky; top: 5rem; height: calc(100vh - 5rem); overflow-y: auto; padding: 2rem 1.5rem; }
+    .timeline-year-link { display: block; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; color: rgba(247,244,238,0.4); text-decoration: none; padding: 0.35rem 0 0.35rem 0.75rem; border-left: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
+    .timeline-year-link:hover, .timeline-year-link.active { color: var(--paper); border-color: var(--accent); }
+    .timeline-content { padding: 3rem clamp(2rem,5vw,4rem); }
+    .year-group { margin-bottom: 4rem; }
+    .year-heading { font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; color: var(--paper-warm); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--rule); letter-spacing: -0.02em; }
+    .timeline-link { display: inline-block; margin-top: 0.75rem; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; color: var(--accent); border-bottom: 1px solid var(--accent-lt); padding-bottom: 1px; }
+    @media (max-width: 768px) { .timeline-wrap { grid-template-columns: 1fr; } .timeline-years { display: none; } }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-wordmark">The<span>&nbsp;Collection</span></a>
+    <ul class="nav-links">
+      <li><a href="collection.html">Guitars</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="sounds.html">Sounds</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="timeline-page">
+    <div class="timeline-intro">
+      <div class="label" style="margin-bottom:0.75rem">How it grew</div>
+      <h1>Acquisition timeline</h1>
+      <p>Every guitar, in order of arrival. The collection has no logic — only momentum.</p>
+    </div>
+    <div class="timeline-wrap">
+      <div class="timeline-years" id="year-nav"></div>
+      <div class="timeline-content">
+        <div class="timeline" id="timeline-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-col-title">Pages</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">All guitars</a></li>
+          <li><a href="sounds.html">Sounds</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div></div>
+    </div>
+    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+  </footer>
+
+  <script src="js/guitars.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const byYear = {};
+    [...guitars].sort((a,b) => a.acquiredYear - b.acquiredYear).forEach(g => {
+      if (!byYear[g.acquiredYear]) byYear[g.acquiredYear] = [];
+      byYear[g.acquiredYear].push(g);
+    });
+    const years = Object.keys(byYear).sort();
+
+    document.getElementById('year-nav').innerHTML = years.map(y =>
+      `<a href="#year-${y}" class="timeline-year-link">${y}</a>`).join('');
+
+    document.getElementById('timeline-list').innerHTML = years.map(y => `
+      <div class="year-group" id="year-${y}">
+        <div class="year-heading">${y}</div>
+        ${byYear[y].map(g => `
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">${g.acquired || y}</div>
+            <div class="timeline-guitar-name">${g.make} ${g.model}</div>
+            <p class="timeline-detail">${g.shortStory}</p>
+            <a href="pages/guitar.html?id=${g.id}" class="timeline-link">Full story →</a>
+          </div>`).join('')}
+      </div>`).join('');
+
+    const yearEls = document.querySelectorAll('.year-group');
+    const yearLinks = document.querySelectorAll('.timeline-year-link');
+    const yearObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const id = e.target.id.replace('year-', '');
+          yearLinks.forEach(l => l.classList.toggle('active', l.textContent.trim() === id));
+        }
+      });
+    }, { threshold: 0.3 });
+    yearEls.forEach(el => yearObserver.observe(el));
+  </script>
+</body>
+</html>

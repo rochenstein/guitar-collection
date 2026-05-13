@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Guitars — The Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-wordmark">The<span>&nbsp;Collection</span></a>
+    <ul class="nav-links">
+      <li><a href="collection.html">Guitars</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="sounds.html">Sounds</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div style="padding-top:5rem;">
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <div class="label" style="margin-bottom:0.5rem">Every instrument</div>
+          <h1 class="section-title">The guitars</h1>
+        </div>
+        <div class="section-count" id="guitar-count"></div>
+      </div>
+      <div class="filter-bar" id="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="electric">Electric</button>
+        <button class="filter-btn" data-filter="acoustic">Acoustic</button>
+        <button class="filter-btn" data-filter="bass">Bass</button>
+        <button class="filter-btn" data-filter="humbucker">Humbucker</button>
+        <button class="filter-btn" data-filter="single-coil">Single coil</button>
+        <button class="filter-btn" data-filter="active-pickups">Active pickups</button>
+        <button class="filter-btn" data-filter="semi-hollow">Semi-hollow</button>
+        <button class="filter-btn" data-filter="gibson">Gibson</button>
+        <button class="filter-btn" data-filter="fender">Fender</button>
+        <button class="filter-btn" data-filter="esp">ESP</button>
+        <button class="filter-btn" data-filter="japan">Made in Japan</button>
+      </div>
+      <div class="collection-grid" id="collection-grid"></div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-col-title">Pages</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="sounds.html">Sounds</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Elsewhere</div>
+        <ul class="footer-links">
+          <li><a href="#" target="_blank">YouTube</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+  </footer>
+
+  <script src="js/guitars.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    let activeFilter = 'all';
+    const grid = document.getElementById('collection-grid');
+    const countEl = document.getElementById('guitar-count');
+
+    function renderCards(list) {
+      grid.innerHTML = list.map(g => `
+        <a href="pages/guitar.html?id=${g.id}" class="guitar-card">
+          <div class="guitar-card-image">
+            <div class="guitar-card-image-placeholder">${g.emoji}</div>
+            <div class="guitar-card-number">${g.number}</div>
+          </div>
+          <div class="guitar-card-body">
+            <div class="guitar-card-make">${g.make}</div>
+            <div class="guitar-card-name">${g.model}</div>
+            <div class="guitar-card-meta">
+              <span>${g.year || 'c.' + g.acquiredYear} · ${g.country}</span>
+              <span>${g.acquired}</span>
+            </div>
+          </div>
+        </a>`).join('');
+      countEl.textContent = `${list.length} instrument${list.length !== 1 ? 's' : ''}`;
+    }
+
+    function applyFilter(tag) {
+      activeFilter = tag;
+      const filtered = tag === 'all' ? guitars : guitars.filter(g => g.tags.includes(tag));
+      renderCards(filtered);
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === tag));
+    }
+
+    document.getElementById('filter-bar').addEventListener('click', e => {
+      if (e.target.matches('.filter-btn')) applyFilter(e.target.dataset.filter);
+    });
+
+    renderCards(guitars);
+  </script>
+</body>
+</html>

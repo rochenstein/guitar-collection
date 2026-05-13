@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — The Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .about-page { padding-top: 5rem; }
+    .about-section { padding: clamp(3rem,7vw,5rem) clamp(1.5rem,5vw,4rem); }
+    .about-title { font-size: clamp(2.2rem,5vw,3.5rem); font-weight: 700; letter-spacing: -0.02em; margin-bottom: 3rem; }
+    .about-rule { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-wordmark">The<span>&nbsp;Collection</span></a>
+    <ul class="nav-links">
+      <li><a href="collection.html">Guitars</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="sounds.html">Sounds</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="about-page">
+    <section class="about-section">
+      <div class="label" style="margin-bottom:0.75rem">The collector</div>
+      <h1 class="about-title">About this archive</h1>
+
+      <div class="about-grid">
+        <div>
+          <div class="about-portrait">🎸</div>
+          <div class="label" style="margin-bottom:0.4rem">Dublin, Ireland</div>
+          <p style="font-size:0.82rem;color:var(--ink-muted);line-height:1.6">Guitarist, collector,<br>professional distracted person.</p>
+        </div>
+
+        <div class="about-body fade-up">
+          <h2 style="font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:1.25rem">A modest obsession,<br>carefully documented</h2>
+          <p>I have been playing guitar since I was twelve years old, having saved up the money by working on my parents' stableyard in Kildare, and accumulating instruments at a rate my bank account has never fully endorsed. Over the years the collection has grown to twenty-five guitars — electrics, acoustics, vintage pieces, workhorses, and a bass that technically belongs to someone else.</p>
+          <p>This site is an attempt to document them properly. For years they existed only in a spreadsheet and in memory, which is an increasingly unreliable archive. Writing each story down forces a kind of honesty about why I actually own all of these and what they mean.</p>
+          <p>The collection spans thirty years of acquisition, from a black Encore Stratocaster copy bought in Music Maker on Exchequer Street in 1995 to a Gibson ES-345 ordered from Peach Guitars in 2024. Several were bought in Florida. One was bought in Thailand and carried across Southeast Asia as hand luggage. One belonged to my cousin Wesley.</p>
+
+          <hr class="about-rule">
+
+          <h2 style="font-size:1.4rem;margin-bottom:1rem">What I look for</h2>
+          <p>I do not collect for investment. I collect instruments that have a voice I cannot get somewhere else, or that have a history I find interesting, or that I happened to find at a moment when I was not thinking clearly about money. The overlap between those three categories is where this collection lives.</p>
+
+          <div class="how-built fade-up">
+            <h3>How this site was built</h3>
+            <p>This is a personal side project built with the help of AI tools, specifically Claude, which I used to design and code the entire site from scratch. I am a strategy and operations professional by trade, not a developer, so this was partly a genuine passion project and partly an experiment in what is now possible with AI-assisted development.</p>
+            <p>The site is plain HTML, CSS and JavaScript — no framework, no database, hosted as static files. Each guitar's data lives in a single JS file. Simple to maintain, fast to load, and something I can actually understand and modify myself.</p>
+            <div class="tool-stack">
+              <span class="tool-tag">Claude</span>
+              <span class="tool-tag">HTML / CSS / JS</span>
+              <span class="tool-tag">GitHub Pages</span>
+              <span class="tool-tag">Playfair Display</span>
+              <span class="tool-tag">DM Sans</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-col-title">Pages</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">All guitars</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="sounds.html">Sounds</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Elsewhere</div>
+        <ul class="footer-links">
+          <li><a href="#" target="_blank">YouTube</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+  </footer>
+
+  <script src="js/guitars.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

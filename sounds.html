@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sounds — The Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .sounds-intro { background: var(--ink); color: var(--paper); padding: clamp(3rem,7vw,5rem) clamp(1.5rem,5vw,4rem); }
+    .sounds-intro h1 { font-size: clamp(2rem,5vw,3.5rem); color: var(--paper); margin-bottom: 1rem; }
+    .sounds-intro p { font-size: 1rem; color: rgba(247,244,238,0.6); max-width: 48ch; font-weight: 300; }
+    .sounds-grid { padding: var(--section) clamp(1.5rem,5vw,4rem); }
+    .sound-row { display: grid; grid-template-columns: 260px 1fr; border-bottom: 1px solid var(--rule); padding: 2.5rem 0; }
+    .sound-row:first-child { padding-top: 0; }
+    .sound-guitar-info { padding-right: 2rem; }
+    .sound-guitar-make { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
+    .sound-guitar-name { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
+    .sound-guitar-year { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-muted); margin-bottom: 1rem; }
+    .sound-guitar-link { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; color: var(--ink-soft); border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+    .sound-guitar-link:hover { color: var(--accent); border-color: var(--accent); }
+    .no-video { background: var(--paper-warm); border: 1px dashed var(--rule); padding: 2rem; text-align: center; margin-bottom: 1rem; }
+    .no-video p { font-size: 0.78rem; color: var(--ink-muted); margin-top: 0.5rem; }
+    @media (max-width: 700px) { .sound-row { grid-template-columns: 1fr; gap: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-wordmark">The<span>&nbsp;Collection</span></a>
+    <ul class="nav-links">
+      <li><a href="collection.html">Guitars</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="sounds.html">Sounds</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div style="padding-top:5rem;">
+    <div class="sounds-intro">
+      <div class="label" style="color:var(--gold);margin-bottom:0.75rem">Hear the collection</div>
+      <h1>Sounds</h1>
+      <p>Videos from the YouTube channel, plus short audio samples for each instrument.</p>
+    </div>
+    <div class="sounds-grid" id="sounds-list"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-col-title">Pages</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">All guitars</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Elsewhere</div>
+        <ul class="footer-links"><li><a href="#" target="_blank">YouTube channel</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+  </footer>
+
+  <script src="js/guitars.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('sounds-list').innerHTML = guitars.map(g => `
+      <div class="sound-row fade-up">
+        <div class="sound-guitar-info">
+          <div class="sound-guitar-make">${g.make}</div>
+          <div class="sound-guitar-name">${g.model}</div>
+          <div class="sound-guitar-year">${g.year || 'c.' + g.acquiredYear}</div>
+          <a href="pages/guitar.html?id=${g.id}" class="sound-guitar-link">Guitar page →</a>
+        </div>
+        <div>
+          ${g.videoId
+            ? `<div class="video-embed" style="margin-bottom:1rem"><iframe src="https://www.youtube.com/embed/${g.videoId}" title="${g.make} ${g.model}" allowfullscreen></iframe></div>`
+            : `<div class="no-video"><div class="label">No video yet</div><p>Add a YouTube video ID to guitars.js</p></div>`}
+          ${g.audioSamples && g.audioSamples.length
+            ? `<div class="audio-samples">${g.audioSamples.map(s => `<div class="audio-sample"><button class="audio-play-btn">▶</button><span class="audio-sample-name">${s.name}</span><span class="audio-sample-duration">${s.duration}</span></div>`).join('')}</div>`
+            : ''}
+        </div>
+      </div>`).join('');
+  </script>
+</body>
+</html>
