@@ -1,55 +1,63 @@
-// collection.js
+// timeline.js
 
-function initCollection() {
-  var grid = document.getElementById('collection-grid');
-  var countEl = document.getElementById('guitar-count');
-  if (!grid) return;
+function initTimeline() {
+  var yearNav = document.getElementById('year-nav');
+  var timelineList = document.getElementById('timeline-list');
+  if (!yearNav || !timelineList) return;
   if (typeof guitars === 'undefined') return;
 
-  function renderCards(list) {
-    var html = '';
-    for (var i = 0; i < list.length; i++) {
-      var g = list[i];
-      html +=
-        '<a href="pages/guitar.html?id=' + g.id + '" class="guitar-card">' +
-          '<div class="guitar-card-image">' +
-            '<div class="guitar-card-image-placeholder">' + g.emoji + '</div>' +
-            '<div class="guitar-card-number">' + g.number + '</div>' +
-          '</div>' +
-          '<div class="guitar-card-body">' +
-            '<div class="guitar-card-make">' + g.make + '</div>' +
-            '<div class="guitar-card-name">' + g.model + '</div>' +
-            '<div class="guitar-card-meta">' +
-              '<span>' + (g.year || 'c.' + g.acquiredYear) + ' · ' + g.country + '</span>' +
-              '<span>' + g.acquired + '</span>' +
-            '</div>' +
-          '</div>' +
-        '</a>';
+  var byYear = {};
+  var sorted = guitars.slice().sort(function(a, b) { return a.acquiredYear - b.acquiredYear; });
+
+  for (var i = 0; i < sorted.length; i++) {
+    var g = sorted[i];
+    if (!byYear[g.acquiredYear]) byYear[g.acquiredYear] = [];
+    byYear[g.acquiredYear].push(g);
+  }
+
+  var years = Object.keys(byYear).sort();
+
+  var navHtml = '';
+  for (var y = 0; y < years.length; y++) {
+    navHtml += '<a href="#year-' + years[y] + '" class="timeline-year-link">' + years[y] + '</a>';
+  }
+  yearNav.innerHTML = navHtml;
+
+  var listHtml = '';
+  for (var y = 0; y < years.length; y++) {
+    var year = years[y];
+    var items = byYear[year];
+    listHtml += '<div class="year-group" id="year-' + year + '"><div class="year-heading">' + year + '</div>';
+    for (var i = 0; i < items.length; i++) {
+      var g = items[i];
+      listHtml +=
+        '<div class="timeline-item fade-up">' +
+          '<div class="timeline-dot"></div>' +
+          '<div class="timeline-date">' + (g.acquired || year) + '</div>' +
+          '<div class="timeline-guitar-name">' + g.make + ' ' + g.model + '</div>' +
+          '<p class="timeline-detail">' + g.shortStory + '</p>' +
+          '<a href="pages/guitar.html?id=' + g.id + '" class="timeline-link">Full story</a>' +
+        '</div>';
     }
-    grid.innerHTML = html;
-    if (countEl) countEl.textContent = list.length + ' instrument' + (list.length !== 1 ? 's' : '');
+    listHtml += '</div>';
   }
+  timelineList.innerHTML = listHtml;
 
-  function applyFilter(tag) {
-    var filtered = tag === 'all' ? guitars : guitars.filter(function(g) { return g.tags.indexOf(tag) !== -1; });
-    renderCards(filtered);
-    document.querySelectorAll('.filter-btn').forEach(function(b) {
-      b.classList.toggle('active', b.dataset.filter === tag);
+  var yearEls = document.querySelectorAll('.year-group');
+  var yearLinks = document.querySelectorAll('.timeline-year-link');
+  var yearObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        var id = e.target.id.replace('year-', '');
+        yearLinks.forEach(function(l) { l.classList.toggle('active', l.textContent.trim() === id); });
+      }
     });
-  }
-
-  var filterBar = document.getElementById('filter-bar');
-  if (filterBar) {
-    filterBar.addEventListener('click', function(e) {
-      if (e.target.matches('.filter-btn')) applyFilter(e.target.dataset.filter);
-    });
-  }
-
-  renderCards(guitars);
+  }, { threshold: 0.3 });
+  yearEls.forEach(function(el) { yearObserver.observe(el); });
 }
 
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initCollection);
+  document.addEventListener('DOMContentLoaded', initTimeline);
 } else {
-  initCollection();
+  initTimeline();
 }
