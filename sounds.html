@@ -6,21 +6,98 @@
   <title>Sounds — The Collection</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .sounds-intro { background: var(--ink); color: var(--paper); padding: clamp(3rem,7vw,5rem) clamp(1.5rem,5vw,4rem); }
-    .sounds-intro h1 { font-size: clamp(2rem,5vw,3.5rem); color: var(--paper); margin-bottom: 1rem; }
-    .sounds-intro p { font-size: 1rem; color: rgba(247,244,238,0.6); max-width: 48ch; font-weight: 300; }
+    .sounds-intro {
+      background: var(--ink);
+      color: var(--paper);
+      padding: clamp(3rem,7vw,5rem) clamp(1.5rem,5vw,4rem);
+    }
+    .sounds-intro h1 {
+      font-size: clamp(2rem,5vw,3.5rem);
+      color: var(--paper);
+      margin-bottom: 1rem;
+    }
+    .sounds-intro p {
+      font-size: 1rem;
+      color: rgba(247,244,238,0.6);
+      max-width: 48ch;
+      font-weight: 300;
+    }
     .sounds-grid { padding: var(--section) clamp(1.5rem,5vw,4rem); }
-    .sound-row { display: grid; grid-template-columns: 260px 1fr; border-bottom: 1px solid var(--rule); padding: 2.5rem 0; }
+
+    .sound-row {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 0;
+      border-bottom: 1px solid var(--rule);
+      padding: 2.5rem 0;
+    }
     .sound-row:first-child { padding-top: 0; }
+
     .sound-guitar-info { padding-right: 2rem; }
-    .sound-guitar-make { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
-    .sound-guitar-name { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
-    .sound-guitar-year { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-muted); margin-bottom: 1rem; }
-    .sound-guitar-link { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; color: var(--ink-soft); border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+    .sound-guitar-make {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+    .sound-guitar-name {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      line-height: 1.2;
+    }
+    .sound-guitar-year {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--ink-muted);
+      margin-bottom: 1rem;
+    }
+    .sound-guitar-link {
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--ink-soft);
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1px;
+    }
     .sound-guitar-link:hover { color: var(--accent); border-color: var(--accent); }
-    .no-video { background: var(--paper-warm); border: 1px dashed var(--rule); padding: 2rem; text-align: center; margin-bottom: 1rem; }
-    .no-video p { font-size: 0.78rem; color: var(--ink-muted); margin-top: 0.5rem; }
-    @media (max-width: 700px) { .sound-row { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+    .no-video {
+      background: var(--paper-warm);
+      border: 1px dashed var(--rule);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .no-video p { font-size: 0.78rem; color: var(--ink-muted); margin-top: 0.4rem; }
+
+    .sound-video-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.75rem;
+    }
+    .sound-video-tab {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.05em;
+      padding: 0.3rem 0.75rem;
+      background: transparent;
+      border: 1px solid var(--rule);
+      color: var(--ink-soft);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .sound-video-tab:hover { border-color: var(--ink); color: var(--ink); }
+    .sound-video-tab.active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+    @media (max-width: 700px) {
+      .sound-row { grid-template-columns: 1fr; gap: 1.5rem; }
+    }
   </style>
 </head>
 <body>
@@ -38,14 +115,17 @@
     <div class="sounds-intro">
       <div class="label" style="color:var(--gold);margin-bottom:0.75rem">Hear the collection</div>
       <h1>Sounds</h1>
-      <p>Videos from the YouTube channel, plus short audio samples for each instrument.</p>
+      <p>Videos from the YouTube channel for each instrument in the collection.</p>
     </div>
     <div class="sounds-grid" id="sounds-list"></div>
   </div>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div><div class="footer-brand-name">The Collection</div><p class="footer-blurb">A personal archive of electric and acoustic guitars.</p></div>
+      <div>
+        <div class="footer-brand-name">The Collection</div>
+        <p class="footer-blurb">A personal archive of electric and acoustic guitars.</p>
+      </div>
       <div>
         <div class="footer-col-title">Pages</div>
         <ul class="footer-links">
@@ -57,32 +137,78 @@
       </div>
       <div>
         <div class="footer-col-title">Elsewhere</div>
-        <ul class="footer-links"><li><a href="#" target="_blank">YouTube channel</a></li></ul>
+        <ul class="footer-links">
+          <li><a href="https://www.youtube.com/Rochenstein" target="_blank">YouTube channel</a></li>
+          <li><a href="https://www.linkedin.com/in/willroche/" target="_blank">LinkedIn</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-bottom"><span>Built with Claude · Dublin, Ireland</span><span>© 2025</span></div>
+    <div class="footer-bottom">
+      <span>Built with Claude · Dublin, Ireland</span>
+      <span>© 2025</span>
+    </div>
   </footer>
 
   <script src="js/guitars.js"></script>
   <script src="js/main.js"></script>
   <script>
-    document.getElementById('sounds-list').innerHTML = guitars.map(g => `
-      <div class="sound-row fade-up">
-        <div class="sound-guitar-info">
-          <div class="sound-guitar-make">${g.make}</div>
-          <div class="sound-guitar-name">${g.model}</div>
-          <div class="sound-guitar-year">${g.year || 'c.' + g.acquiredYear}</div>
-          <a href="pages/guitar.html?id=${g.id}" class="sound-guitar-link">Guitar page →</a>
-        </div>
-        <div>
-          ${g.videoId
-            ? `<div class="video-embed" style="margin-bottom:1rem"><iframe src="https://www.youtube.com/embed/${g.videoId}" title="${g.make} ${g.model}" allowfullscreen></iframe></div>`
-            : `<div class="no-video"><div class="label">No video yet</div><p>Add a YouTube video ID to guitars.js</p></div>`}
-          ${g.audioSamples && g.audioSamples.length
-            ? `<div class="audio-samples">${g.audioSamples.map(s => `<div class="audio-sample"><button class="audio-play-btn">▶</button><span class="audio-sample-name">${s.name}</span><span class="audio-sample-duration">${s.duration}</span></div>`).join('')}</div>`
-            : ''}
-        </div>
-      </div>`).join('');
+    // Only show guitars that have at least one video, sorted by acquiredYear
+    const withVideos = guitars.filter(g => g.videos && g.videos.length > 0);
+    const withoutVideos = guitars.filter(g => !g.videos || g.videos.length === 0);
+    const allSorted = [...withVideos, ...withoutVideos];
+
+    document.getElementById('sounds-list').innerHTML = allSorted.map((g, rowIndex) => {
+      const videos = g.videos || [];
+
+      let mediaHtml;
+      if (videos.length === 0) {
+        mediaHtml = `
+          <div class="no-video">
+            <div class="label">No video yet</div>
+            <p>Coming soon</p>
+          </div>`;
+      } else if (videos.length === 1) {
+        mediaHtml = `
+          <p style="font-family:var(--font-mono);font-size:0.65rem;color:var(--accent);letter-spacing:0.08em;margin-bottom:0.75rem;text-transform:uppercase;">${videos[0].title}</p>
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/${videos[0].id}" title="${videos[0].title}" allowfullscreen></iframe>
+          </div>`;
+      } else {
+        const tabsId = `tabs-${rowIndex}`;
+        const iframeId = `iframe-${rowIndex}`;
+        mediaHtml = `
+          <div class="sound-video-tabs" id="${tabsId}">
+            ${videos.map((v, i) => `<button class="sound-video-tab ${i === 0 ? 'active' : ''}" data-iframe="${iframeId}" data-src="https://www.youtube.com/embed/${v.id}" data-title="${v.title}">${v.title}</button>`).join('')}
+          </div>
+          <div class="video-embed">
+            <iframe id="${iframeId}" src="https://www.youtube.com/embed/${videos[0].id}" title="${videos[0].title}" allowfullscreen></iframe>
+          </div>`;
+      }
+
+      return `
+        <div class="sound-row fade-up">
+          <div class="sound-guitar-info">
+            <div class="sound-guitar-make">${g.make}</div>
+            <div class="sound-guitar-name">${g.model}</div>
+            <div class="sound-guitar-year">${g.year || 'c.' + g.acquiredYear}</div>
+            <a href="pages/guitar.html?id=${g.id}" class="sound-guitar-link">Guitar page →</a>
+          </div>
+          <div>${mediaHtml}</div>
+        </div>`;
+    }).join('');
+
+    // Tab click handler
+    document.getElementById('sounds-list').addEventListener('click', e => {
+      if (!e.target.matches('.sound-video-tab')) return;
+      const iframeId = e.target.dataset.iframe;
+      const iframe = document.getElementById(iframeId);
+      iframe.src = e.target.dataset.src;
+      iframe.title = e.target.dataset.title;
+      // Update active state within this tab group
+      const tabsContainer = e.target.closest('.sound-video-tabs');
+      tabsContainer.querySelectorAll('.sound-video-tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+    });
   </script>
 </body>
 </html>
