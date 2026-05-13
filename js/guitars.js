@@ -20,7 +20,7 @@ const guitars = [
     neck: "Unknown",
     pickups: "Single coil copies",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `It started with Kurt Cobain. I was eleven when he died in April 1994, and something about that moment, the music, the weight of it, the way it landed even in Kildare town, made me want to pick up a guitar. MTV was playing Nirvana, Pearl Jam and Soundgarden on rotation. There were cover bands doing that stuff in the local pubs, and every June during the Derby Festival, when the town filled up for the big race at the Curragh, a truck trailer was turned into a stage on the street and you'd get a couple of nights of it live. One of those local bands featured a guitarist called Padraig Burke (Podge), who would later become my guitar teacher and the person who actually got me started.
 
@@ -55,7 +55,7 @@ I still have it. It plays like what it is, but I have no intention of getting ri
     neck: "Unknown",
     pickups: "Single coil",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `Wesley bought this on the same trip to Music Maker on Exchequer Street in 1995 where I bought my Encore. He was already playing at that point and this was his first serious guitar. He chose a sunburst Stratocaster, which in retrospect feels entirely consistent with being a massive Pearl Jam fan.
 
@@ -86,7 +86,7 @@ It is the most sentimental item in the collection. The later half of the ninetie
     neck: "Unknown",
     pickups: "Onboard electroacoustic",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `My first year or so of playing I only had an electric guitar, which is a slightly unusual way to start. My dad had other ideas about what a "proper" guitar looked like. He had an acquaintance called Tommy Carew, a professional musician who plays Irish folk music, Christy Moore and that tradition, and my father asked Tommy to source me an acoustic.
 
@@ -119,7 +119,10 @@ It remains one of the better guitars in the collection relative to what it cost.
     neck: "Mahogany",
     pickups: "Humbuckers",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "7njBfmiCTnA", title: "Tool — Stinkfist" },
+      { id: "CrNajT1CdsU", title: "Refused — New Noise" },
+    ],
     audioSamples: [],
     story: `In 1999 I travelled to Florida with my mother, my cousin Wesley and an uncle to visit family in Fort Lauderdale. My aunt and uncle have lived there for years, and my grandmother had lived there from the eighties until she returned to Ireland sometime in the nineties. It was a family holiday, but I had an agenda.
 
@@ -150,7 +153,9 @@ Over the years I swapped out various parts including locking tuners, but I recen
     neck: "Mahogany / Ebony fretboard",
     pickups: "Seymour Duncan 59 (neck) / JB (bridge)",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "lnof98hMCuE", title: "Mastodon — Blood and Thunder" },
+    ],
     audioSamples: [],
     story: `Found on the same trip to Mars Music in Fort Lauderdale as the Smartwood Les Paul.
 
@@ -179,7 +184,7 @@ The guitar is currently tuned to drop D. I used it to record a cover of Mastodon
     neck: "Maple / Ebony fretboard",
     pickups: "EMG 60 (neck) / EMG 81 (bridge)",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `By 1999 a few things had converged. I had been reading Guitar World magazine religiously and still have every issue from that period. Metallica featured constantly, and their relationship with ESP was well documented across those pages. I had seen the band live in 1996 on the Cunning Stunts tour at the Point Theatre in Dublin, the tour where the elaborate stage setup collapsed in a controlled blaze of pyrotechnics mid-show and the band returned for their encore under what was presented as emergency lighting. Everyone in the room knew it was part of the show. Nobody cared. It was extraordinary.
 
@@ -208,7 +213,9 @@ It is a rare guitar. I am glad I bought it when I did.`,
     neck: "Maple",
     pickups: "EMG 81 / EMG 81",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
+    ],
     audioSamples: [],
     story: `Ordered alongside the JH-3 from American Musical Supply in 1999, at a point when getting hold of ESP signature guitars in Ireland required going directly to the source.
 
@@ -237,7 +244,7 @@ What it shares with the JH-3 is the build quality that defines Japanese-made ESP
     neck: "Mahogany",
     pickups: "Humbuckers",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `In September 2001, having finished our Leaving Cert earlier that year, two friends and I travelled to Florida to stay with my aunt in Fort Lauderdale. It was an act of considerable generosity on her part to let three eighteen-year-olds loose in her home. We made the most of it. We visited NASA, watched a lot of football, went fishing, and I managed to beach a jetski on Marco Island, which is not as easy to do as it sounds and not something I would recommend.
 
@@ -268,7 +275,7 @@ Disco Stu has been in the collection ever since. It is not a subtle guitar. It i
     neck: "Mahogany / Ebony fretboard",
     pickups: "None",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `I bought this in Music Maker on Exchequer Street in Dublin as a gift for Suzanne, who wanted to learn to play. It seemed like the right kind of guitar for that, light, comfortable, not precious.
 
@@ -297,7 +304,11 @@ It is a good first guitar. Small and light, comfortable to pick up, sounds pleas
     neck: "Mahogany set neck / Rosewood fretboard",
     pickups: "PRS HFS (bridge) / Vintage Bass (neck)",
     featured: true,
-    videoId: "",
+    videos: [
+      { id: "pHRPGkdCNLo", title: "Rival Schools — Used for Glue" },
+      { id: "55CP1c-ejWY", title: "Melvins — Revolve" },
+      { id: "LUR6gVZptjk", title: "Dead Kennedys — Police Truck" },
+    ],
     audioSamples: [],
     story: `Purchased at Music Arts Enterprises in Fort Lauderdale, a store that as far as I can tell is still trading. This was the final stop on an ambitious trip with my then-girlfriend, now wife, Suzanne, a road trip that went from New York to San Francisco before finishing in Florida. My aunt, with her customary generosity, put us up for the last leg. We visited the Everglades. We also visited music stores.
 
@@ -330,7 +341,7 @@ In the same shop, on the same day, Suzanne bought her Fender Aerodyne Stratocast
     neck: "Maple / 7.25\" radius",
     pickups: "Single coil / Humbucker",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `Suzanne bought this in Music Arts Enterprises in Fort Lauderdale on the same day I bought the PRS Singlecut Trem. It is her guitar, though I have played and maintained it over the years.
 
@@ -363,7 +374,10 @@ What Suzanne paid for it in 2004 I cannot remember, but the prices these guitars
     neck: "Mahogany / Slim Taper",
     pickups: "490R (neck) / 498T (bridge) Humbuckers",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "KZal9FGY_5g", title: "The Cars — Just What I Needed" },
+      { id: "qPBqbQpURTc", title: "Therapy? — Screamager" },
+    ],
     audioSamples: [],
     story: `Bought second hand from a seller on Adverts.ie, collected from Balbriggan. The guy wasn't answering his phone when I arrived to collect it, which was a tense hour or so, but he eventually called back and we made the deal. Worth the wait.
 
@@ -392,7 +406,9 @@ The only work it needed was widening a few nut slots, which was a straightforwar
     neck: "Maple / Wizard II profile",
     pickups: "DiMarzio Steve's Special (bridge) / DiMarzio Breed (neck)",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "TLSvm8tz-zc", title: "Carcass — Corporal Jigsore Quandary" },
+    ],
     audioSamples: [],
     story: `Ordered from Thomann. This is one of the earlier versions of the RG2550Z, which means dot inlays rather than the sharktooth markers that appeared on later runs, a detail that matters to nobody except the people it matters to enormously.
 
@@ -423,7 +439,10 @@ Most recently this guitar has been strung heavily and tuned to B, where I used i
     neck: "Maple / Rosewood fretboard",
     pickups: "G&L MFD Single Coils",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
+      { id: "ZWq0skIlCrE", title: "Pink Floyd — Time" },
+    ],
     audioSamples: [],
     story: `Bought in New York alongside the black Legacy in the same transaction. G&L was one of the companies Leo Fender founded after leaving Fender, and the story goes that this is where he refined his ideas and built what he considered the definitive Stratocaster-style guitar. Whether or not you buy that framing, these are exceptional instruments for the money. US-made in the Fullerton factory, premium components throughout, and at the time a few hundred dollars each. Fender acquired G&L and subsequently wound the brand down, which is a shame. I am glad I have both when I do.
 
@@ -448,7 +467,7 @@ This is my favourite of the two. Rosewood fretboard, blue finish, and it has bee
     neck: "MusiKraft Quartersawn Roasted Maple / 12\" radius",
     pickups: "G&L MFD Single Coils",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `Bought in New York on the same trip as the blue Legacy. Same guitar, different finish, black body, maple fretboard.
 
@@ -475,7 +494,7 @@ The MusiKraft neck is excellent. My one criticism is that the nut slots were cut
     neck: "Maple / Tree of Life inlay",
     pickups: "DiMarzio ToneZone (bridge) / True Velvet (mid) / Air Norton (neck)",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `Having been thoroughly impressed by the RG2550Z, the logical next step was to go further. The J Custom is Ibanez's premium line, built in Japan to a higher specification than the standard Prestige range, and this one came from a reputable seller on eBay in Japan.
 
@@ -502,7 +521,11 @@ The one significant issue is the frets. For a new guitar from the J Custom line,
     neck: "Mahogany",
     pickups: "EMG 81 (bridge) / EMG 60 (neck)",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "_L3p9mVOeII", title: "Blood Incantation — The Stargate (solo)" },
+      { id: "g52iNAxAJ9Y", title: "Deftones — My Own Summer" },
+      { id: "u3lBZDhprGw", title: "Gojira — Stranded" },
+    ],
     audioSamples: [],
     story: `Ordered from Drum City Guitarland, based in Colorado, who are an excellent online retailer. Having owned the JH-3 since 1999, I knew exactly what I was getting into with the Eclipse shape and wanted another one.
 
@@ -533,7 +556,7 @@ It is one of the guitars that is always within reach. It is very hard to fault.`
     neck: "Mahogany",
     pickups: "None",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `In 2010 and into 2011, Suzanne and I travelled across Southeast Asia, taking in as many countries as we could. It was an extraordinary trip. It was also several months without a guitar, which I found increasingly difficult to manage.
 
@@ -566,7 +589,9 @@ None of that matters much. This is the guitar that has covered more miles than a
     neck: "Maple",
     pickups: "Split single coil (P-style)",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
+    ],
     audioSamples: [],
     story: `This bass belongs to my friend Neil. He left it at my house sometime in the nineties and has not collected it since. I am the custodian rather than the owner.
 
@@ -595,7 +620,10 @@ Neil, if you ever read this, it is ready and waiting for you.`,
     neck: "Mahogany",
     pickups: "LR Baggs VTC",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
+      { id: "JlC3h7cCUc0", title: "Celtic Fingerstyle" },
+    ],
     audioSamples: [],
     story: `In 1999, in Mars Music in Fort Lauderdale, I played a Gibson Hummingbird in Heritage Cherry. I was sixteen years old and had no realistic prospect of buying it. I did not forget it.
 
@@ -626,7 +654,10 @@ I have used it to record Celtic fingerstyle pieces, and also, through the onboar
     neck: "Maple / Nitro finish",
     pickups: "Vintage-style single coils",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
+      { id: "DZRYj_6gu-k", title: "The Strokes — Reptilia" },
+    ],
     audioSamples: [],
     story: `There is a gap in this collection between 2010 and the early 2020s that requires no great explanation. I grew up. Work, marriage, kids, home ownership, the usual reasons a person stops doing impulsive things with their disposable income. I didn't buy another guitar until I reached my forties, which I consider reasonable restraint given the preceding fifteen years.
 
@@ -655,7 +686,10 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the ES-34
     neck: "Maple / 7.25\" radius",
     pickups: "Jazzmaster single coils (US spec)",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "u9dV4uezffI", title: "Queens of the Stone Age — I Sat by the Ocean" },
+      { id: "pHRPGkdCNLo", title: "Rival Schools — Used for Glue" },
+    ],
     audioSamples: [],
     story: `Purchased from Thomann in July 2023, not long after my fortieth birthday, at which point the guitars started arriving with some regularity again. Make of that what you will.
 
@@ -686,7 +720,7 @@ Once set up to my preferences it is a joy. The tremolo is endlessly entertaining
     neck: "Meranti / Rosewood fretboard",
     pickups: "None",
     featured: false,
-    videoId: "",
+    videos: [],
     audioSamples: [],
     story: `A Yamaha CGS102A, which is a half-size classical guitar with a spruce top, meranti back, sides and neck, and a rosewood fretboard and bridge. I bought it for my daughter to start her guitar journey on.
 
@@ -713,7 +747,9 @@ It is, as you would expect from Yamaha, a real instrument rather than a toy. Wel
     neck: "Mahogany / Split parallelogram inlays",
     pickups: "T-type Humbuckers",
     featured: true,
-    videoId: "",
+    videos: [
+      { id: "DZRYj_6gu-k", title: "The Strokes — Reptilia" },
+    ],
     audioSamples: [],
     story: `I had always wanted a semi-hollow. Over the years I had tried various Epiphone Dots and Ibanez semi-hollows but the Gibson ES-335 was always the benchmark in my mind. The 345 is essentially a 335 in fancier clothing. My version does not feature the stereo outputs or Varitone controls of the vintage originals, but it retains the cosmetic details that make the 345 distinctive: split parallelogram inlays, which are the finest inlays Gibson offers in my opinion and also found on the Hummingbird, and multi-ply binding throughout.
 
@@ -744,7 +780,10 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the Telec
     neck: "Mahogany / Satin finish",
     pickups: "Yamaha Alnico P-90 style",
     featured: false,
-    videoId: "",
+    videos: [
+      { id: "u9dV4uezffI", title: "Queens of the Stone Age — I Sat by the Ocean" },
+      { id: "7WlT7gG0jJc", title: "The Black Keys — Your Touch" },
+    ],
     audioSamples: [],
     story: `A gift from Suzanne.
 
