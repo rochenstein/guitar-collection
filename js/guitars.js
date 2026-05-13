@@ -309,6 +309,12 @@ It is a good first guitar. Small and light, comfortable to pick up, sounds pleas
       { id: "55CP1c-ejWY", title: "Melvins — Revolve" },
       { id: "LUR6gVZptjk", title: "Dead Kennedys — Police Truck" },
     ],
+    images: [
+      { src: "images/prs-singlecut-trem-2004/main.jpg", caption: "Full length" },
+      { src: "images/prs-singlecut-trem-2004/body.jpg", caption: "Body" },
+      { src: "images/prs-singlecut-trem-2004/headstock.jpg", caption: "Headstock" },
+      { src: "images/prs-singlecut-trem-2004/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Purchased at Music Arts Enterprises in Fort Lauderdale, a store that as far as I can tell is still trading. This was the final stop on an ambitious trip with my then-girlfriend, now wife, Suzanne, a road trip that went from New York to San Francisco before finishing in Florida. My aunt, with her customary generosity, put us up for the last leg. We visited the Everglades. We also visited music stores.
 
