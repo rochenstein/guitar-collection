@@ -31,7 +31,7 @@ function initTimeline() {
     for (var i = 0; i < items.length; i++) {
       var g = items[i];
       listHtml +=
-        '<div class="timeline-item fade-up">' +
+        '<div class="timeline-item">' +
           '<div class="timeline-dot"></div>' +
           '<div class="timeline-date">' + (g.acquired || year) + '</div>' +
           '<div class="timeline-guitar-name">' + g.make + ' ' + g.model + '</div>' +
