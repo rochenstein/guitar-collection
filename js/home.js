@@ -11,7 +11,7 @@ function initHome() {
   for (var i = 0; i < recent.length; i++) {
     var g = recent[i];
     html +=
-      '<a href="pages/guitar.html?id=' + g.id + '" class="guitar-card fade-up">' +
+      '<a href="pages/guitar.html?id=' + g.id + '" class="guitar-card">' +
         '<div class="guitar-card-image">' +
           '<div class="guitar-card-image-placeholder">' + g.emoji + '</div>' +
           '<div class="guitar-card-number">' + g.number + '</div>' +
