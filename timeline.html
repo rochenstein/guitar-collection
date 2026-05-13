@@ -65,41 +65,6 @@
 
   <script src="js/guitars.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    const byYear = {};
-    [...guitars].sort((a,b) => a.acquiredYear - b.acquiredYear).forEach(g => {
-      if (!byYear[g.acquiredYear]) byYear[g.acquiredYear] = [];
-      byYear[g.acquiredYear].push(g);
-    });
-    const years = Object.keys(byYear).sort();
-
-    document.getElementById('year-nav').innerHTML = years.map(y =>
-      `<a href="#year-${y}" class="timeline-year-link">${y}</a>`).join('');
-
-    document.getElementById('timeline-list').innerHTML = years.map(y => `
-      <div class="year-group" id="year-${y}">
-        <div class="year-heading">${y}</div>
-        ${byYear[y].map(g => `
-          <div class="timeline-item fade-up">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">${g.acquired || y}</div>
-            <div class="timeline-guitar-name">${g.make} ${g.model}</div>
-            <p class="timeline-detail">${g.shortStory}</p>
-            <a href="pages/guitar.html?id=${g.id}" class="timeline-link">Full story →</a>
-          </div>`).join('')}
-      </div>`).join('');
-
-    const yearEls = document.querySelectorAll('.year-group');
-    const yearLinks = document.querySelectorAll('.timeline-year-link');
-    const yearObserver = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          const id = e.target.id.replace('year-', '');
-          yearLinks.forEach(l => l.classList.toggle('active', l.textContent.trim() === id));
-        }
-      });
-    }, { threshold: 0.3 });
-    yearEls.forEach(el => yearObserver.observe(el));
-  </script>
+  <script src="js/timeline.js"></script>
 </body>
 </html>
