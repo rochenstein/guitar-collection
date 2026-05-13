@@ -214,6 +214,10 @@ h1, h2, h3, h4 {
   gap: 1px; background: var(--rule); border: 1px solid var(--rule);
 }
 
+#recent-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .guitar-card { background: var(--paper); text-decoration: none; display: block; position: relative; overflow: hidden; transition: background 0.2s; }
 .guitar-card:hover { background: var(--cream); }
 
