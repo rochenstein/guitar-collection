@@ -658,6 +658,12 @@ I have used it to record Celtic fingerstyle pieces, and also, through the onboar
       { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
       { id: "DZRYj_6gu-k", title: "The Strokes — Reptilia" },
     ],
+    images: [
+      { src: "images/fender-avii-tele-2023/main.jpg", caption: "Full length" },
+      { src: "images/fender-avii-tele-2023/body.jpg", caption: "Body" },
+      { src: "images/fender-avii-tele-2023/headstock.jpg", caption: "Headstock" },
+      { src: "images/fender-avii-tele-2023/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `There is a gap in this collection between 2010 and the early 2020s that requires no great explanation. I grew up. Work, marriage, kids, home ownership, the usual reasons a person stops doing impulsive things with their disposable income. I didn't buy another guitar until I reached my forties, which I consider reasonable restraint given the preceding fifteen years.
 
@@ -766,7 +772,7 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the Telec
   },
 
   {
-    id: "yamaha-revstar-RSP02T-2024",
+    id: "yamaha-revstar-rsp02t-2024",
     number: "25",
     make: "Yamaha",
     model: "Revstar RSP02T",
