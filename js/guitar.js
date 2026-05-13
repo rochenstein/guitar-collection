@@ -22,9 +22,43 @@ function initGuitar() {
   document.getElementById('detail-make').textContent = guitar.make + ' · No. ' + guitar.number;
   document.getElementById('detail-title').textContent = guitar.model + (guitar.year ? ', ' + guitar.year : '');
 
-  var heroEmoji = document.getElementById('hero-emoji');
-  heroEmoji.textContent = guitar.emoji;
-  heroEmoji.style.cssText = 'font-size:14rem;opacity:0.18;';
+  // Gallery or emoji
+  var gallery = document.getElementById('hero-gallery');
+  var images = guitar.images || [];
+
+  if (images.length > 0) {
+    var galleryHtml =
+      '<img id="main-photo" src="../' + images[0].src + '" alt="' + guitar.make + ' ' + guitar.model + '" style="width:100%;height:100%;object-fit:cover;display:block;">';
+
+    if (images.length > 1) {
+      galleryHtml += '<div style="position:absolute;bottom:1rem;left:1rem;display:flex;gap:0.5rem;">';
+      for (var i = 0; i < images.length; i++) {
+        galleryHtml += '<img src="../' + images[i].src + '" alt="' + images[i].caption + '" ' +
+          'style="width:52px;height:52px;object-fit:cover;cursor:pointer;border:2px solid ' + (i === 0 ? 'var(--accent)' : 'transparent') + ';" ' +
+          'data-index="' + i + '" class="gallery-thumb">';
+      }
+      galleryHtml += '</div>';
+    }
+
+    gallery.style.opacity = '1';
+    gallery.style.fontSize = 'inherit';
+    gallery.innerHTML = galleryHtml;
+
+    gallery.addEventListener('click', function(e) {
+      if (!e.target.matches('.gallery-thumb')) return;
+      var i = parseInt(e.target.dataset.index);
+      document.getElementById('main-photo').src = '../' + images[i].src;
+      gallery.querySelectorAll('.gallery-thumb').forEach(function(t) {
+        t.style.borderColor = 'transparent';
+      });
+      e.target.style.borderColor = 'var(--accent)';
+    });
+  } else {
+    var heroEmoji = document.createElement('span');
+    heroEmoji.textContent = guitar.emoji;
+    heroEmoji.style.cssText = 'font-size:14rem;opacity:0.18;';
+    gallery.appendChild(heroEmoji);
+  }
 
   var specs = [
     { label: 'Year',      value: guitar.year || 'Unknown' },
