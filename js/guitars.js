@@ -766,7 +766,7 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the Telec
   },
 
   {
-    id: "yamaha-revstar-rsp02t-2024",
+    id: "yamaha-revstar-RSP02T-2024",
     number: "25",
     make: "Yamaha",
     model: "Revstar RSP02T",
