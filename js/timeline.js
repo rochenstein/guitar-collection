@@ -1,32 +1,47 @@
 // timeline.js
 
-document.addEventListener('DOMContentLoaded', function() {
+function initTimeline() {
+  var yearNav = document.getElementById('year-nav');
+  var timelineList = document.getElementById('timeline-list');
+  if (!yearNav || !timelineList) return;
+  if (typeof guitars === 'undefined') return;
+
   var byYear = {};
   var sorted = guitars.slice().sort(function(a, b) { return a.acquiredYear - b.acquiredYear; });
-  sorted.forEach(function(g) {
+
+  for (var i = 0; i < sorted.length; i++) {
+    var g = sorted[i];
     if (!byYear[g.acquiredYear]) byYear[g.acquiredYear] = [];
     byYear[g.acquiredYear].push(g);
-  });
+  }
+
   var years = Object.keys(byYear).sort();
 
-  document.getElementById('year-nav').innerHTML = years.map(function(y) {
-    return '<a href="#year-' + y + '" class="timeline-year-link">' + y + '</a>';
-  }).join('');
+  var navHtml = '';
+  for (var y = 0; y < years.length; y++) {
+    navHtml += '<a href="#year-' + years[y] + '" class="timeline-year-link">' + years[y] + '</a>';
+  }
+  yearNav.innerHTML = navHtml;
 
-  document.getElementById('timeline-list').innerHTML = years.map(function(y) {
-    return '<div class="year-group" id="year-' + y + '">' +
-      '<div class="year-heading">' + y + '</div>' +
-      byYear[y].map(function(g) {
-        return '<div class="timeline-item fade-up">' +
+  var listHtml = '';
+  for (var y = 0; y < years.length; y++) {
+    var year = years[y];
+    var items = byYear[year];
+    listHtml += '<div class="year-group" id="year-' + year + '"><div class="year-heading">' + year + '</div>';
+    for (var i = 0; i < items.length; i++) {
+      var g = items[i];
+      listHtml +=
+        '<div class="timeline-item fade-up">' +
           '<div class="timeline-dot"></div>' +
-          '<div class="timeline-date">' + (g.acquired || y) + '</div>' +
+          '<div class="timeline-date">' + (g.acquired || year) + '</div>' +
           '<div class="timeline-guitar-name">' + g.make + ' ' + g.model + '</div>' +
           '<p class="timeline-detail">' + g.shortStory + '</p>' +
-          '<a href="pages/guitar.html?id=' + g.id + '" class="timeline-link">Full story →</a>' +
+          '<a href="pages/guitar.html?id=' + g.id + '" class="timeline-link">Full story</a>' +
         '</div>';
-      }).join('') +
-    '</div>';
-  }).join('');
+    }
+    listHtml += '</div>';
+  }
+  timelineList.innerHTML = listHtml;
 
   var yearEls = document.querySelectorAll('.year-group');
   var yearLinks = document.querySelectorAll('.timeline-year-link');
@@ -39,4 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, { threshold: 0.3 });
   yearEls.forEach(function(el) { yearObserver.observe(el); });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initTimeline);
+} else {
+  initTimeline();
+}
