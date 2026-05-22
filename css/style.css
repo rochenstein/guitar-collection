@@ -242,7 +242,7 @@ h1, h2, h3, h4 {
 /* ─── Featured Guitar ────────────────────────────────────────── */
 .featured { background: var(--ink); color: var(--paper); }
 .featured-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; min-height: 70vh; }
-.featured-image { background: #141210; display: flex; align-items: center; justify-content: center; font-size: 16rem; opacity: 0.1; }
+.featured-image { position: relative; overflow: hidden; background: #141210; }
 
 .featured-content {
   padding: clamp(2rem, 6vw, 5rem); display: flex; flex-direction: column;
