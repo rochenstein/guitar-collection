@@ -27,7 +27,7 @@ function initCollection() {
             '<div class="guitar-card-name">' + g.model + '</div>' +
             '<div class="guitar-card-meta">' +
               '<span>' + (g.year || 'c.' + g.acquiredYear) + ' · ' + g.country + '</span>' +
-              '<span>' + g.acquired + '</span>' +
+              '<span>' + (g.acquired && g.acquired !== String(g.year) ? g.acquired : '') + '</span>' +
             '</div>' +
           '</div>' +
         '</a>';
