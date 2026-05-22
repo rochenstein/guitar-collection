@@ -221,7 +221,7 @@ h1, h2, h3, h4 {
 .guitar-card { background: var(--paper); text-decoration: none; display: block; position: relative; overflow: hidden; transition: background 0.2s; }
 .guitar-card:hover { background: var(--cream); }
 
-.guitar-card-image { aspect-ratio: 3/4; background: var(--paper-warm); overflow: hidden; position: relative; }
+.guitar-card-image { aspect-ratio: 4/3; background: var(--paper-warm); overflow: hidden; position: relative; }
 .guitar-card-image-placeholder {
   width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
   font-size: 5rem; opacity: 0.2; transition: transform 0.5s var(--ease-out), opacity 0.3s;
