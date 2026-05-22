@@ -377,4 +377,7 @@ h1, h2, h3, h4 {
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
   .video-grid { grid-template-columns: 1fr; }
   .nav-links { gap: 1rem; }
+  .nav-wordmark { font-size: 0.95rem; }
+  #recent-grid { grid-template-columns: repeat(2, 1fr); }
+  .collection-grid { grid-template-columns: repeat(2, 1fr); }
 }
