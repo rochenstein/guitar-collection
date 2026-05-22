@@ -10,10 +10,16 @@ function initHome() {
 
   for (var i = 0; i < recent.length; i++) {
     var g = recent[i];
+    var images = g.images || [];
+    var imageHtml = images.length > 0
+      ? '<img src="' + images[0].src + '" alt="' + g.make + ' ' + g.model + '" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';">' +
+        '<div class="guitar-card-image-placeholder" style="display:none;">' + g.emoji + '</div>'
+      : '<div class="guitar-card-image-placeholder">' + g.emoji + '</div>';
+
     html +=
       '<a href="pages/guitar.html?id=' + g.id + '" class="guitar-card">' +
         '<div class="guitar-card-image">' +
-          '<div class="guitar-card-image-placeholder">' + g.emoji + '</div>' +
+          imageHtml +
           '<div class="guitar-card-number">' + g.number + '</div>' +
         '</div>' +
         '<div class="guitar-card-body">' +
