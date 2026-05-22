@@ -21,6 +21,12 @@ const guitars = [
     pickups: "Single coil copies",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/encore-strat-1995/main.jpg", caption: "Full length" },
+      { src: "images/encore-strat-1995/body.jpg", caption: "Body" },
+      { src: "images/encore-strat-1995/headstock.jpg", caption: "Headstock" },
+      { src: "images/encore-strat-1995/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `It started with Kurt Cobain. I was eleven when he died in April 1994, and something about that moment, the music, the weight of it, the way it landed even in Kildare town, made me want to pick up a guitar. MTV was playing Nirvana, Pearl Jam and Soundgarden on rotation. There were cover bands doing that stuff in the local pubs, and every June during the Derby Festival, when the town filled up for the big race at the Curragh, a truck trailer was turned into a stage on the street and you'd get a couple of nights of it live. One of those local bands featured a guitarist called Padraig Burke (Podge), who would later become my guitar teacher and the person who actually got me started.
 
@@ -56,6 +62,12 @@ I still have it. It plays like what it is, but I have no intention of getting ri
     pickups: "Single coil",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/mustang-strat-1995/main.jpg", caption: "Full length" },
+      { src: "images/mustang-strat-1995/body.jpg", caption: "Body" },
+      { src: "images/mustang-strat-1995/headstock.jpg", caption: "Headstock" },
+      { src: "images/mustang-strat-1995/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Wesley bought this on the same trip to Music Maker on Exchequer Street in 1995 where I bought my Encore. He was already playing at that point and this was his first serious guitar. He chose a sunburst Stratocaster, which in retrospect feels entirely consistent with being a massive Pearl Jam fan.
 
@@ -87,6 +99,12 @@ It is the most sentimental item in the collection. The later half of the ninetie
     pickups: "Onboard electroacoustic",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/jasmine-takamine/main.jpg", caption: "Full length" },
+      { src: "images/jasmine-takamine/body.jpg", caption: "Body" },
+      { src: "images/jasmine-takamine/headstock.jpg", caption: "Headstock" },
+      { src: "images/jasmine-takamine/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `My first year or so of playing I only had an electric guitar, which is a slightly unusual way to start. My dad had other ideas about what a "proper" guitar looked like. He had an acquaintance called Tommy Carew, a professional musician who plays Irish folk music, Christy Moore and that tradition, and my father asked Tommy to source me an acoustic.
 
@@ -123,6 +141,12 @@ It remains one of the better guitars in the collection relative to what it cost.
       { id: "7njBfmiCTnA", title: "Tool — Stinkfist" },
       { id: "CrNajT1CdsU", title: "Refused — New Noise" },
     ],
+    images: [
+      { src: "images/gibson-lp-smartwood-1999/main.jpg", caption: "Full length" },
+      { src: "images/gibson-lp-smartwood-1999/body.jpg", caption: "Body" },
+      { src: "images/gibson-lp-smartwood-1999/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-lp-smartwood-1999/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `In 1999 I travelled to Florida with my mother, my cousin Wesley and an uncle to visit family in Fort Lauderdale. My aunt and uncle have lived there for years, and my grandmother had lived there from the eighties until she returned to Ireland sometime in the nineties. It was a family holiday, but I had an agenda.
 
@@ -156,6 +180,12 @@ Over the years I swapped out various parts including locking tuners, but I recen
     videos: [
       { id: "lnof98hMCuE", title: "Mastodon — Blood and Thunder" },
     ],
+    images: [
+      { src: "images/gibson-gothic-explorer-1999/main.jpg", caption: "Full length" },
+      { src: "images/gibson-gothic-explorer-1999/body.jpg", caption: "Body" },
+      { src: "images/gibson-gothic-explorer-1999/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-gothic-explorer-1999/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Found on the same trip to Mars Music in Fort Lauderdale as the Smartwood Les Paul.
 
@@ -185,6 +215,12 @@ The guitar is currently tuned to drop D. I used it to record a cover of Mastodon
     pickups: "EMG 60 (neck) / EMG 81 (bridge)",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/esp-jh3-1999/main.jpg", caption: "Full length" },
+      { src: "images/esp-jh3-1999/body.jpg", caption: "Body" },
+      { src: "images/esp-jh3-1999/headstock.jpg", caption: "Headstock" },
+      { src: "images/esp-jh3-1999/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `By 1999 a few things had converged. I had been reading Guitar World magazine religiously and still have every issue from that period. Metallica featured constantly, and their relationship with ESP was well documented across those pages. I had seen the band live in 1996 on the Cunning Stunts tour at the Point Theatre in Dublin, the tour where the elaborate stage setup collapsed in a controlled blaze of pyrotechnics mid-show and the band returned for their encore under what was presented as emergency lighting. Everyone in the room knew it was part of the show. Nobody cared. It was extraordinary.
 
@@ -216,6 +252,12 @@ It is a rare guitar. I am glad I bought it when I did.`,
     videos: [
       { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
     ],
+    images: [
+      { src: "images/esp-kh2-1999/main.jpg", caption: "Full length" },
+      { src: "images/esp-kh2-1999/body.jpg", caption: "Body" },
+      { src: "images/esp-kh2-1999/headstock.jpg", caption: "Headstock" },
+      { src: "images/esp-kh2-1999/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Ordered alongside the JH-3 from American Musical Supply in 1999, at a point when getting hold of ESP signature guitars in Ireland required going directly to the source.
 
@@ -245,6 +287,12 @@ What it shares with the JH-3 is the build quality that defines Japanese-made ESP
     pickups: "Humbuckers",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/gibson-sparkle-explorer-2001/main.jpg", caption: "Full length" },
+      { src: "images/gibson-sparkle-explorer-2001/body.jpg", caption: "Body" },
+      { src: "images/gibson-sparkle-explorer-2001/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-sparkle-explorer-2001/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `In September 2001, having finished our Leaving Cert earlier that year, two friends and I travelled to Florida to stay with my aunt in Fort Lauderdale. It was an act of considerable generosity on her part to let three eighteen-year-olds loose in her home. We made the most of it. We visited NASA, watched a lot of football, went fishing, and I managed to beach a jetski on Marco Island, which is not as easy to do as it sounds and not something I would recommend.
 
@@ -276,6 +324,12 @@ Disco Stu has been in the collection ever since. It is not a subtle guitar. It i
     pickups: "None",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/taylor-big-baby/main.jpg", caption: "Full length" },
+      { src: "images/taylor-big-baby/body.jpg", caption: "Body" },
+      { src: "images/taylor-big-baby/headstock.jpg", caption: "Headstock" },
+      { src: "images/taylor-big-baby/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `I bought this in Music Maker on Exchequer Street in Dublin as a gift for Suzanne, who wanted to learn to play. It seemed like the right kind of guitar for that, light, comfortable, not precious.
 
@@ -348,6 +402,12 @@ In the same shop, on the same day, Suzanne bought her Fender Aerodyne Stratocast
     pickups: "Single coil / Humbucker",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/fender-aerodyne-strat-2004/main.jpg", caption: "Full length" },
+      { src: "images/fender-aerodyne-strat-2004/body.jpg", caption: "Body" },
+      { src: "images/fender-aerodyne-strat-2004/headstock.jpg", caption: "Headstock" },
+      { src: "images/fender-aerodyne-strat-2004/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Suzanne bought this in Music Arts Enterprises in Fort Lauderdale on the same day I bought the PRS Singlecut Trem. It is her guitar, though I have played and maintained it over the years.
 
@@ -384,6 +444,12 @@ What Suzanne paid for it in 2004 I cannot remember, but the prices these guitars
       { id: "KZal9FGY_5g", title: "The Cars — Just What I Needed" },
       { id: "qPBqbQpURTc", title: "Therapy? — Screamager" },
     ],
+    images: [
+      { src: "images/gibson-sg-standard-2006/main.jpg", caption: "Full length" },
+      { src: "images/gibson-sg-standard-2006/body.jpg", caption: "Body" },
+      { src: "images/gibson-sg-standard-2006/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-sg-standard-2006/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Bought second hand from a seller on Adverts.ie, collected from Balbriggan. The guy wasn't answering his phone when I arrived to collect it, which was a tense hour or so, but he eventually called back and we made the deal. Worth the wait.
 
@@ -414,6 +480,12 @@ The only work it needed was widening a few nut slots, which was a straightforwar
     featured: false,
     videos: [
       { id: "TLSvm8tz-zc", title: "Carcass — Corporal Jigsore Quandary" },
+    ],
+    images: [
+      { src: "images/ibanez-rg2550z-2007/main.jpg", caption: "Full length" },
+      { src: "images/ibanez-rg2550z-2007/body.jpg", caption: "Body" },
+      { src: "images/ibanez-rg2550z-2007/headstock.jpg", caption: "Headstock" },
+      { src: "images/ibanez-rg2550z-2007/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
     story: `Ordered from Thomann. This is one of the earlier versions of the RG2550Z, which means dot inlays rather than the sharktooth markers that appeared on later runs, a detail that matters to nobody except the people it matters to enormously.
@@ -449,6 +521,12 @@ Most recently this guitar has been strung heavily and tuned to B, where I used i
       { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
       { id: "ZWq0skIlCrE", title: "Pink Floyd — Time" },
     ],
+    images: [
+      { src: "images/gl-legacy-blue-2008/main.jpg", caption: "Full length" },
+      { src: "images/gl-legacy-blue-2008/body.jpg", caption: "Body" },
+      { src: "images/gl-legacy-blue-2008/headstock.jpg", caption: "Headstock" },
+      { src: "images/gl-legacy-blue-2008/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Bought in New York alongside the black Legacy in the same transaction. G&L was one of the companies Leo Fender founded after leaving Fender, and the story goes that this is where he refined his ideas and built what he considered the definitive Stratocaster-style guitar. Whether or not you buy that framing, these are exceptional instruments for the money. US-made in the Fullerton factory, premium components throughout, and at the time a few hundred dollars each. Fender acquired G&L and subsequently wound the brand down, which is a shame. I am glad I have both when I do.
 
@@ -474,6 +552,12 @@ This is my favourite of the two. Rosewood fretboard, blue finish, and it has bee
     pickups: "G&L MFD Single Coils",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/gl-legacy-black-2008/main.jpg", caption: "Full length" },
+      { src: "images/gl-legacy-black-2008/body.jpg", caption: "Body" },
+      { src: "images/gl-legacy-black-2008/headstock.jpg", caption: "Headstock" },
+      { src: "images/gl-legacy-black-2008/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Bought in New York on the same trip as the blue Legacy. Same guitar, different finish, black body, maple fretboard.
 
@@ -501,6 +585,12 @@ The MusiKraft neck is excellent. My one criticism is that the nut slots were cut
     pickups: "DiMarzio ToneZone (bridge) / True Velvet (mid) / Air Norton (neck)",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/ibanez-rg8470z-2008/main.jpg", caption: "Full length" },
+      { src: "images/ibanez-rg8470z-2008/body.jpg", caption: "Body" },
+      { src: "images/ibanez-rg8470z-2008/headstock.jpg", caption: "Headstock" },
+      { src: "images/ibanez-rg8470z-2008/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Having been thoroughly impressed by the RG2550Z, the logical next step was to go further. The J Custom is Ibanez's premium line, built in Japan to a higher specification than the standard Prestige range, and this one came from a reputable seller on eBay in Japan.
 
@@ -531,6 +621,12 @@ The one significant issue is the frets. For a new guitar from the J Custom line,
       { id: "_L3p9mVOeII", title: "Blood Incantation — The Stargate (solo)" },
       { id: "g52iNAxAJ9Y", title: "Deftones — My Own Summer" },
       { id: "u3lBZDhprGw", title: "Gojira — Stranded" },
+    ],
+    images: [
+      { src: "images/esp-eclipse-ii-2008/main.jpg", caption: "Full length" },
+      { src: "images/esp-eclipse-ii-2008/body.jpg", caption: "Body" },
+      { src: "images/esp-eclipse-ii-2008/headstock.jpg", caption: "Headstock" },
+      { src: "images/esp-eclipse-ii-2008/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
     story: `Ordered from Drum City Guitarland, based in Colorado, who are an excellent online retailer. Having owned the JH-3 since 1999, I knew exactly what I was getting into with the Eclipse shape and wanted another one.
@@ -563,6 +659,12 @@ It is one of the guitars that is always within reach. It is very hard to fault.`
     pickups: "None",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/washburn-acoustic-2010/main.jpg", caption: "Full length" },
+      { src: "images/washburn-acoustic-2010/body.jpg", caption: "Body" },
+      { src: "images/washburn-acoustic-2010/headstock.jpg", caption: "Headstock" },
+      { src: "images/washburn-acoustic-2010/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `In 2010 and into 2011, Suzanne and I travelled across Southeast Asia, taking in as many countries as we could. It was an extraordinary trip. It was also several months without a guitar, which I found increasingly difficult to manage.
 
@@ -598,6 +700,12 @@ None of that matters much. This is the guitar that has covered more miles than a
     videos: [
       { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
     ],
+    images: [
+      { src: "images/squier-p-bass/main.jpg", caption: "Full length" },
+      { src: "images/squier-p-bass/body.jpg", caption: "Body" },
+      { src: "images/squier-p-bass/headstock.jpg", caption: "Headstock" },
+      { src: "images/squier-p-bass/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `This bass belongs to my friend Neil. He left it at my house sometime in the nineties and has not collected it since. I am the custodian rather than the owner.
 
@@ -629,6 +737,12 @@ Neil, if you ever read this, it is ready and waiting for you.`,
     videos: [
       { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
       { id: "JlC3h7cCUc0", title: "Celtic Fingerstyle" },
+    ],
+    images: [
+      { src: "images/gibson-hummingbird-standard-2023/main.jpg", caption: "Full length" },
+      { src: "images/gibson-hummingbird-standard-2023/body.jpg", caption: "Body" },
+      { src: "images/gibson-hummingbird-standard-2023/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-hummingbird-standard-2023/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
     story: `In 1999, in Mars Music in Fort Lauderdale, I played a Gibson Hummingbird in Heritage Cherry. I was sixteen years old and had no realistic prospect of buying it. I did not forget it.
@@ -702,6 +816,12 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the ES-34
       { id: "u9dV4uezffI", title: "Queens of the Stone Age — I Sat by the Ocean" },
       { id: "pHRPGkdCNLo", title: "Rival Schools — Used for Glue" },
     ],
+    images: [
+      { src: "images/fender-tvl-jazzmaster-2023/main.jpg", caption: "Full length" },
+      { src: "images/fender-tvl-jazzmaster-2023/body.jpg", caption: "Body" },
+      { src: "images/fender-tvl-jazzmaster-2023/headstock.jpg", caption: "Headstock" },
+      { src: "images/fender-tvl-jazzmaster-2023/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `Purchased from Thomann in July 2023, not long after my fortieth birthday, at which point the guitars started arriving with some regularity again. Make of that what you will.
 
@@ -733,6 +853,12 @@ Once set up to my preferences it is a joy. The tremolo is endlessly entertaining
     pickups: "None",
     featured: false,
     videos: [],
+    images: [
+      { src: "images/yamaha-classical-2023/main.jpg", caption: "Full length" },
+      { src: "images/yamaha-classical-2023/body.jpg", caption: "Body" },
+      { src: "images/yamaha-classical-2023/headstock.jpg", caption: "Headstock" },
+      { src: "images/yamaha-classical-2023/detail.jpg", caption: "Detail" },
+    ],
     audioSamples: [],
     story: `A Yamaha CGS102A, which is a half-size classical guitar with a spruce top, meranti back, sides and neck, and a rosewood fretboard and bridge. I bought it for my daughter to start her guitar journey on.
 
@@ -761,6 +887,12 @@ It is, as you would expect from Yamaha, a real instrument rather than a toy. Wel
     featured: true,
     videos: [
       { id: "DZRYj_6gu-k", title: "The Strokes — Reptilia" },
+    ],
+    images: [
+      { src: "images/gibson-es345-2024/main.jpg", caption: "Full length" },
+      { src: "images/gibson-es345-2024/body.jpg", caption: "Body" },
+      { src: "images/gibson-es345-2024/headstock.jpg", caption: "Headstock" },
+      { src: "images/gibson-es345-2024/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
     story: `I had always wanted a semi-hollow. Over the years I had tried various Epiphone Dots and Ibanez semi-hollows but the Gibson ES-335 was always the benchmark in my mind. The 345 is essentially a 335 in fancier clothing. My version does not feature the stereo outputs or Varitone controls of the vintage originals, but it retains the cosmetic details that make the 345 distinctive: split parallelogram inlays, which are the finest inlays Gibson offers in my opinion and also found on the Hummingbird, and multi-ply binding throughout.
@@ -795,6 +927,12 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the Telec
     videos: [
       { id: "u9dV4uezffI", title: "Queens of the Stone Age — I Sat by the Ocean" },
       { id: "7WlT7gG0jJc", title: "The Black Keys — Your Touch" },
+    ],
+    images: [
+      { src: "images/yamaha-revstar-rsp02t-2024/main.jpg", caption: "Full length" },
+      { src: "images/yamaha-revstar-rsp02t-2024/body.jpg", caption: "Body" },
+      { src: "images/yamaha-revstar-rsp02t-2024/headstock.jpg", caption: "Headstock" },
+      { src: "images/yamaha-revstar-rsp02t-2024/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
     story: `A gift from Suzanne.
