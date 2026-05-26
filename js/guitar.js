@@ -92,8 +92,8 @@ function initGuitar() {
   if (videos.length === 0) {
     videoContainer.innerHTML =
       '<div style="background:rgba(255,255,255,0.05);padding:3rem 2rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">' +
-        '<div class="label" style="color:rgba(247,244,238,0.3);margin-bottom:0.75rem">Video coming</div>' +
-        '<p style="font-size:0.85rem;color:rgba(247,244,238,0.4)">Add a video entry to guitars.js to embed here.</p>' +
+        '<div class="label" style="color:rgba(247,244,238,0.3);margin-bottom:0.75rem">No video yet</div>' +
+        '<p style="font-size:0.85rem;color:rgba(247,244,238,0.4)">Coming soon, if I ever find the time.</p>' +
       '</div>';
   } else if (videos.length === 1) {
     videoContainer.innerHTML =
