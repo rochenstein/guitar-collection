@@ -98,7 +98,7 @@ function initGuitar() {
   } else if (videos.length === 1) {
     videoContainer.innerHTML =
       '<p style="font-family:var(--font-mono);font-size:0.7rem;color:var(--gold);letter-spacing:0.08em;margin-bottom:1rem;">' + videos[0].title + '</p>' +
-      '<div class="video-embed" style="max-width:800px;">' +
+      '<div class="video-embed" >' +
         '<iframe src="https://www.youtube.com/embed/' + videos[0].id + '" title="' + videos[0].title + '" allowfullscreen></iframe>' +
       '</div>';
   } else {
@@ -108,7 +108,7 @@ function initGuitar() {
     }
     videoContainer.innerHTML =
       '<div class="video-tabs" id="video-tabs">' + tabsHtml + '</div>' +
-      '<div class="video-embed" style="max-width:800px;">' +
+      '<div class="video-embed" >' +
         '<iframe id="video-iframe" src="https://www.youtube.com/embed/' + videos[0].id + '" title="' + videos[0].title + '" allowfullscreen></iframe>' +
       '</div>';
 
