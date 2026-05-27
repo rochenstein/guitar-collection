@@ -737,7 +737,7 @@ Twenty-four years later, in April 2023, I had a chance to try a modern one.
 
 My tastes had shifted slightly in the intervening time. I went for a tobacco sunburst rather than the Heritage Cherry of the one I remembered, which I think suits the guitar even better. Everything else was exactly as I had expected, or perhaps as I had constructed it in memory over two and a half decades. The scale length, the feel of the neck, the tone and projection. It is an inspiring acoustic instrument in a way that is difficult to articulate.
 
-I bought it with a specific intention, a guitar that would age beautifully and be a companion for the rest of my life. It will age better than I will, I sudpect.
+I bought it with a specific intention, a guitar that would age beautifully and be a companion for the rest of my life. It will age better than I will, I suspect.
 
 I have used it to record Celtic fingerstyle pieces, and also, through the onboard pickup system with some distortion added, a cover of 1979 by the Smashing Pumpkins.`,
     shortStory: "The guitar I first played in 1999 and thought about for twenty-four years. A companion for life.",
