@@ -30,7 +30,7 @@ const guitars = [
     audioSamples: [],
     story: `It started with Kurt Cobain. I was eleven when he died in April 1994, and something about that moment, the music, the weight of it, the way it landed even in Kildare town, made me want to pick up a guitar. MTV was playing Nirvana, Pearl Jam and Soundgarden on rotation. There were cover bands doing that stuff in the local pubs, and every June during the Derby Festival, when the town filled up for the big race at the Curragh, a truck trailer was turned into a stage on the street and you'd get a couple of nights of it live. One of those local bands featured a guitarist called Padraig Burke (Podge), who would later become my guitar teacher and the person who actually got me started.
 
-By the following year I had saved up enough. The money came the way most of my money came at that age: working on the stableyard my parents ran, feeding and watering horses, mucking out. Somewhere around two hundred Irish punts, which took a while.
+By the following year I had saved up enough. The money came the way most of my money came at that age: doing Summer jobs. Somewhere around two hundred Irish punts, which took a while.
 
 My cousin Wesley and I got the train up from Kildare to Dublin and walked into Music Maker on Exchequer Street. Wesley was already playing at that point, having started on some kind of extreme-shaped Warlock knockoff that wasn't a BC Rich but looked like it meant business. This was his first serious guitar. The fact that he chose a sunburst Stratocaster feels, in hindsight, like a Pearl Jam decision. He was a massive fan. So am I.
 
@@ -41,7 +41,7 @@ Music Maker was a serious shop. Behind the counter at the time sat a BC Rich Moc
 If you look at the guitar today you'll notice a Metallica sticker on the body. Wesley was a huge Metallica fan and the Black Album was still a colossal record a few years on from its release. As I graduated from grunge into heavier music I found myself chasing a tone this guitar couldn't quite deliver. It took me longer than it should have to work out that single coil pickups weren't going to get me there, and that humbuckers were what I was actually after. That realisation would shape most of the guitars that came after this one.
 
 I still have it. It plays like what it is, but I have no intention of getting rid of it.`,
-    shortStory: "My first guitar, bought at twelve in Music Maker on Exchequer Street. The Metallica sticker tells you everything about where things were heading.",
+    shortStory: "My first guitar, bought in Music Maker on Exchequer Street.",
     tags: ["electric", "single-coil", "beginner"],
     emoji: "🎸"
   },
