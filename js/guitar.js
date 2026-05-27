@@ -11,13 +11,13 @@ function initGuitar() {
   }
 
   if (idx === -1) {
-    document.body.innerHTML = '<div style="padding:8rem 4rem"><h1>Guitar not found</h1><a href="../collection.html">Back to collection</a></div>';
+    document.body.innerHTML = '<div style="padding:8rem 4rem"><h1>Guitar not found</h1><a href="../collection.html">Back to guitars</a></div>';
     return;
   }
 
   var guitar = guitars[idx];
 
-  document.title = guitar.make + ' ' + guitar.model + ' — The Collection';
+  document.title = guitar.make + ' ' + guitar.model + ' — All Rig, No Gig';
   document.getElementById('breadcrumb-make').textContent = guitar.make;
   document.getElementById('detail-make').textContent = guitar.make + ' · No. ' + guitar.number;
   document.getElementById('detail-title').textContent = guitar.model + (guitar.year ? ', ' + guitar.year : '');
@@ -69,7 +69,6 @@ function initGuitar() {
     { label: 'Body',      value: guitar.body },
     { label: 'Neck',      value: guitar.neck },
     { label: 'Pickups',   value: guitar.pickups },
-    { label: 'Acquired',  value: guitar.acquired },
   ];
 
   var specsHtml = '';
@@ -98,7 +97,7 @@ function initGuitar() {
   } else if (videos.length === 1) {
     videoContainer.innerHTML =
       '<p style="font-family:var(--font-mono);font-size:0.7rem;color:var(--gold);letter-spacing:0.08em;margin-bottom:1rem;">' + videos[0].title + '</p>' +
-      '<div class="video-embed" >' +
+      '<div class="video-embed">' +
         '<iframe src="https://www.youtube.com/embed/' + videos[0].id + '" title="' + videos[0].title + '" allowfullscreen></iframe>' +
       '</div>';
   } else {
@@ -108,7 +107,7 @@ function initGuitar() {
     }
     videoContainer.innerHTML =
       '<div class="video-tabs" id="video-tabs">' + tabsHtml + '</div>' +
-      '<div class="video-embed" >' +
+      '<div class="video-embed">' +
         '<iframe id="video-iframe" src="https://www.youtube.com/embed/' + videos[0].id + '" title="' + videos[0].title + '" allowfullscreen></iframe>' +
       '</div>';
 
