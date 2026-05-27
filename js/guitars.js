@@ -651,6 +651,8 @@ It is one of the guitars that is always within reach. It is very hard to fault.`
     videos: [
       { id: "REyy5g0-vDk", title: "Blues Fingerstyle Piece" },
     ],
+    images: [
+      { src: "images/washburn-acoustic-2010/main.jpg", caption: "Full length" },
       { src: "images/washburn-acoustic-2010/body.jpg", caption: "Body" },
       { src: "images/washburn-acoustic-2010/headstock.jpg", caption: "Headstock" },
       { src: "images/washburn-acoustic-2010/detail.jpg", caption: "Detail" },
