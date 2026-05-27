@@ -69,7 +69,7 @@ I still have it. It plays like what it is, but I have no intention of getting ri
       { src: "images/mustang-strat-1995/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Wesley bought this on the same trip to Music Maker on Exchequer Street in 1995 where I bought my Encore. He was already playing at that point and this was his first serious guitar. He chose a sunburst Stratocaster, which in retrospect feels entirely consistent with being a massive Pearl Jam fan.
+    story: `My cousin Wesley bought this on the same trip to Music Maker on Exchequer Street in 1995 where I bought my Encore. He was already playing at that point and this was his first serious guitar. He chose a sunburst Stratocaster, which in retrospect feels entirely consistent with being a massive Pearl Jam fan.
 
 What I remember most about it from those years is the stickers. Wesley documented his musical passions directly onto the body. There was a large Prodigy sticker from when we saw them at a few festivals, Trip to Tipp among them, in 1997. He also used electrical tape to replicate the Adidas stripes, a nod to the Korn fandom that a lot of us shared at the time. I remember a busload of us going to see Korn at the SFX Hall in Dublin in 1996. The guitar was a kind of scrapbook of that era.
 
@@ -78,7 +78,7 @@ It was a noticeably nicer instrument than my Encore. Wesley was left handed but 
 I inherited it in 2002, after Wesley passed away. I haven't modified it. The pickups, wiring and hardware are all original. I change the strings occasionally and keep it set up, but otherwise it stays as it was. Whatever stickers remain are his.
 
 It is the most sentimental item in the collection. The later half of the nineties in Kildare was a formative time, the years when I found music and found that playing guitar was something I genuinely wanted to do. Wesley was part of all of that. This guitar is a reminder of it.`,
-    shortStory: "Wesley's guitar, bought on the same day as my Encore in 1995. I inherited it in 2002 after he passed away. It hasn't been modified since.",
+    shortStory: "My cousin's guitar, bought on the same day as my Encore in 1995. I inherited it in 2002.",
     tags: ["electric", "single-coil", "sentimental"],
     emoji: "🎸"
   },
@@ -106,16 +106,16 @@ It is the most sentimental item in the collection. The later half of the ninetie
       { src: "images/jasmine-takamine/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `My first year or so of playing I only had an electric guitar, which is a slightly unusual way to start. My dad had other ideas about what a "proper" guitar looked like. He had an acquaintance called Tommy Carew, a professional musician who plays Irish folk music, Christy Moore and that tradition, and my father asked Tommy to source me an acoustic.
+    story: `My first year or so of playing I only had an electric guitar, which is a slightly unusual way to start. My dad had other ideas about what a "proper" guitar looked like. He had an acquaintance called Tommy, a professional musician who plays Irish folk music, Christy Moore and that tradition, and my father asked Tommy to source me an acoustic.
 
-What arrived was this guitar, a Jasmine by Takamine electroacoustic in a hardcase. The original invoice was still in the box: £350 Irish punts, purchased from Sound Gear, a music shop near Portobello Bridge in Dublin. I wouldn't have appreciated the significance of that address at the time. I ended up living around the corner from that shop for about thirteen years when I later moved to the city.
+What arrived was this guitar, a Jasmine by Takamine electroacoustic in a hardcase. The original invoice was still in the box: £350 Irish punts, purchased from Sound Gear, a music shop near Portobello  in Dublin. I wouldn't have appreciated the significance of that address at the time. I ended up living around the corner from that shop for about thirteen years when I later moved to the city.
 
 Tommy made a good choice. The guitar is, I believe, all solid wood with no laminates, which puts it in a different category to what you might expect from an entry-level line from a secondary Takamine brand. Compared to a similarly-priced Washburn I picked up years later in Thailand, it is noticeably the better instrument. When played acoustically it has a richness I didn't fully appreciate until I owned enough guitars to have something to compare it to. I don't think I had a better acoustic until I bought a Gibson Hummingbird to mark my fortieth year.
 
 I never made much use of the electric circuit, though I did occasionally plug it into an amp and run it through distortion, which would produce immediate and spectacular feedback. This was more entertaining than musical.
 
 It remains one of the better guitars in the collection relative to what it cost. I still need to look up the exact model number and country of origin, which I'll update here once I do.`,
-    shortStory: "Sourced by Tommy Carew, a family friend and folk musician, on my father's request. Purchased from Sound Gear near Portobello Bridge. I later lived around the corner from that shop for thirteen years.",
+    shortStory: "Sourced by Tommy, a family friend and folk musician, on my father's request. Purchased from Sound Gear near Portobello. I later lived around the corner from that shop for thirteen years.",
     tags: ["acoustic", "electroacoustic", "takamine"],
     emoji: "🎵"
   },
@@ -148,7 +148,7 @@ It remains one of the better guitars in the collection relative to what it cost.
       { src: "images/gibson-lp-smartwood-1999/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `In 1999 I travelled to Florida with my mother, my cousin Wesley and an uncle to visit family in Fort Lauderdale. My aunt and uncle have lived there for years, and my grandmother had lived there from the eighties until she returned to Ireland sometime in the nineties. It was a family holiday, but I had an agenda.
+    story: `In 1999 I travelled to Florida to visit family in Fort Lauderdale. My aunt and uncle have lived there for years, and my grandmother had lived there from the eighties until she returned to Ireland sometime in the nineties. It was a family holiday, but I had an agenda.
 
 I wanted to visit guitar shops. Coming from Ireland, where the selection was limited and Gibsons were thin on the ground, walking into American music stores was a genuine culture shock. Second hand shops had racks of Ibanez JEMs and shredder guitars that would have been practically mythological back home. The centrepiece was Mars Music, a warehouse-scale store with a selection I had never seen anything like. I played everything I could get my hands on.
 
@@ -156,8 +156,8 @@ I was drawn to the Gibson section. Among the things I played that day was a Gibs
 
 This guitar is a Les Paul Studio shape with a top made from Peroba, a Brazilian hardwood, paired with mahogany on the back and neck. The natural finish was a deliberate choice on my part, not inspired by anything in particular, just a preference I have always had. The neck is chunky, what I take to be a fifties profile, and it has always been one of the most comfortable guitars in the collection to play.
 
-Over the years I swapped out various parts including locking tuners, but I recently returned it to factory stock. It remains a mainstay.`,
-    shortStory: "Found at Mars Music in Fort Lauderdale in 1999. Gibson's sustainable wood experiment, with a Peroba top and a fifties profile neck that makes it one of the most comfortable guitars I own.",
+Over the years I swapped out various parts including locking tuners, but I recently returned it to factory stock.`,
+    shortStory: "Found at Mars Music in Fort Lauderdale in 1999. Gibson's sustainable wood experiment, with a Peroba top and a fifties profile neck.",
     tags: ["electric", "humbucker", "gibson", "florida"],
     emoji: "🎸"
   },
@@ -187,14 +187,12 @@ Over the years I swapped out various parts including locking tuners, but I recen
       { src: "images/gibson-gothic-explorer-1999/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Found on the same trip to Mars Music in Fort Lauderdale as the Smartwood Les Paul.
-
-The Gothic Explorer was part of a Gibson range that applied a matte satin black finish to their classic shapes at a more accessible price point. The connection to James Hetfield is obvious. ESP had been forced to cease production of their Explorer-shaped guitars around this time following a lawsuit with Gibson, which left a gap in the market for anyone chasing that particular aesthetic. This was the best available alternative.
+    story: `The Gothic Explorer was part of a Gibson range that applied a matte satin black finish to their classic shapes at a more accessible price point. The connection to James Hetfield is obvious. ESP had been forced to cease production of their Explorer-shaped guitars around this time following a lawsuit with Gibson, which left a gap in the market for anyone chasing that particular aesthetic. This was the best available alternative.
 
 It is a beautiful guitar. The neck is sleek with an ebony fretboard, and the only fretboard inlay is a single crescent moon at the 12th fret. The back of the headstock features a portrait of Orville Gibson. Unlike Hetfield's own Explorers, this one is front routed and has a rear-mounted pickguard. At some point I swapped out the original pickups for a Seymour Duncan 59 and JB set, which is a classic combination, though I will admit there was nothing wrong with the originals. I have no real explanation for that decision other than the universal guitar player impulse to change things.
 
 The guitar is currently tuned to drop D. I used it to record a cover of Mastodon's Blood and Thunder, which felt appropriate.`,
-    shortStory: "Found at Mars Music in Florida in 1999. A matte black Explorer with an ebony fretboard. The closest thing to a Hetfield Explorer that Gibson's own lawsuit would allow.",
+    shortStory: "A matte black Explorer with an ebony fretboard. The closest thing to a Hetfield Explorer that Gibson's own lawsuit would allow.",
     tags: ["electric", "humbucker", "gibson", "florida"],
     emoji: "🎸"
   },
@@ -222,14 +220,10 @@ The guitar is currently tuned to drop D. I used it to record a cover of Mastodon
       { src: "images/esp-jh3-1999/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `By 1999 a few things had converged. I had been reading Guitar World magazine religiously and still have every issue from that period. Metallica featured constantly, and their relationship with ESP was well documented across those pages. I had seen the band live in 1996 on the Cunning Stunts tour at the Point Theatre in Dublin, the tour where the elaborate stage setup collapsed in a controlled blaze of pyrotechnics mid-show and the band returned for their encore under what was presented as emergency lighting. Everyone in the room knew it was part of the show. Nobody cared. It was extraordinary.
+    story: `By 1999 a few things had converged. I had been reading Guitar World magazine religiously and still have every issue from that period. Metallica featured constantly, and their relationship with ESP was well documented across those pages. I had seen the band live in 1996 on the Cunning Stunts tour at the Point Theatre in Dublin, the tour where the elaborate stage setup collapsed in a controlled blaze of pyrotechnics mid-show and the band returned for their encore under what was presented as emergency lighting.
 
-The third piece was the internet. By 1999 it was possible to order guitars from overseas without depending on local shops, which mattered because there was no ESP dealer in Ireland at the time and no realistic prospect of getting hold of signature models through conventional means. I ordered both this guitar and the KH-2 in the same transaction from a website called American Musical Supply. It feels like a slightly unhinged purchase in retrospect, but I was running on Guitar World and Metallica fervour and the logic felt sound at the time.
-
-The JH-3 is the more interesting of the two. It was James Hetfield's third signature model and limited to 100 pieces. I own number 93, which is engraved into the fretboard. The shape is a full thickness Eclipse, ESP's interpretation of the Les Paul format, finished in black with custom hot rod pinstripe graphics and a chequered flag inlay. The pickup configuration is what Hetfield was running at the time: EMG 60 in the neck, EMG 81 in the bridge. Active, articulate and built for exactly the kind of tone I had been trying to chase since I was twelve years old and wondering why my Encore Stratocaster wouldn't do what I wanted.
-
-It is a rare guitar. I am glad I bought it when I did.`,
-    shortStory: "James Hetfield's third signature model, limited to 100 pieces. I own number 93. Ordered from the US in the same transaction as the KH-2, when there was no ESP dealer in Ireland.",
+The JH-3 is an interesting model. It was James Hetfield's third signature model and limited to 100 pieces. I own number 93, which is engraved into the fretboard. The shape is a full thickness Eclipse, ESP's interpretation of the Les Paul format, finished in black with custom hot rod pinstripe graphics and a chequered flag inlay. The pickup configuration is what Hetfield was running at the time: EMG 60 in the neck, EMG 81 in the bridge. `,
+    shortStory: "James Hetfield's third signature model, limited to 100 pieces.",
     tags: ["electric", "active-pickups", "esp", "japan", "limited-edition"],
     emoji: "🤘"
   },
@@ -259,12 +253,10 @@ It is a rare guitar. I am glad I bought it when I did.`,
       { src: "images/esp-kh2-1999/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Ordered alongside the JH-3 from American Musical Supply in 1999, at a point when getting hold of ESP signature guitars in Ireland required going directly to the source.
-
-The KH-2 is Kirk Hammett's signature model and a version of it has remained in continuous production, which makes it the less rare of the two ESP purchases. This one is a bolt-on neck construction rather than the neckthrough you'd find on current top-of-the-line versions, and carries a double EMG 81 configuration rather than Kirk's more recent pickup choices. It has an original Floyd Rose bridge and skull and crossbones fretboard inlays, which are, I will admit, a little goofy. They were less so in 1999.
+    story: `The KH-2 is Kirk Hammett's signature model and a version of it has remained in continuous production. This one is a bolt-on neck construction rather than the neckthrough you'd find on current top-of-the-line versions, and carries a double EMG 81 configuration rather than Kirk's more recent pickup choices. It has an original Floyd Rose bridge and skull and crossbones fretboard inlays, which are, I will admit, a little goofy.
 
 What it shares with the JH-3 is the build quality that defines Japanese-made ESP guitars. The finish is immaculate. Every component, whether the EMGs, the original Floyd Rose or the Gotoh hardware, feels like it was chosen and fitted with care. There is a precision to these instruments that is difficult to articulate but immediately obvious when you pick one up. I have owned a lot of guitars and the Japanese ESPs sit at the top of the pile in terms of fit and finish. The neck on this one is slightly chunkier than you might expect from a guitar associated with shred playing, which I find suits it well.`,
-    shortStory: "Kirk Hammett's signature model, ordered from the US alongside the JH-3 in 1999. Bolt-on neck, double EMG 81s, original Floyd Rose. Japanese-made and built to a standard that still impresses.",
+    shortStory: "Kirk Hammett's signature model. Bolt-on neck, double EMG 81s, original Floyd Rose. Japanese-made and built to a standard that still impresses.",
     tags: ["electric", "active-pickups", "esp", "japan"],
     emoji: "🤘"
   },
@@ -331,12 +323,12 @@ Disco Stu has been in the collection ever since. It is not a subtle guitar. It i
       { src: "images/taylor-big-baby/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `I bought this in Music Maker on Exchequer Street in Dublin as a gift for Suzanne, who wanted to learn to play. It seemed like the right kind of guitar for that, light, comfortable, not precious.
+    story: `I bought this in Music Maker on Exchequer Street in Dublin as a gift for Suzanne, who wanted to learn to play. It seemed like the right kind of guitar for that, light and comfortable to play.
 
 The Big Baby sits in an interesting category. Taylor conceived it as a slightly smaller than full-size dreadnought, a 15/16 scale guitar with a four-inch body depth rather than the standard four and a half. It has a solid Sitka spruce top, sapele laminate back and sides, a mahogany neck and an ebony fretboard. The bolt-on neck is worth mentioning because it is genuinely unusual on an acoustic guitar and immediately visible — there are two screws sitting exposed in the fretboard around the 12th fret. It looks odd the first time you see it. Taylor used this construction method on the Baby range for a period and it does not seem to be something they have continued, or that many other manufacturers have adopted.
 
-It is a good first guitar. Small and light, comfortable to pick up, sounds pleasant with a slightly thin quality compared to a full-size dreadnought, which is the honest trade-off for the size. It is my only Taylor in the collection and I appreciate it for exactly what it is, something you can grab off the stand and play without ceremony.`,
-    shortStory: "Bought in Music Maker in Dublin as a gift for Suzanne. My only Taylor. The visible neck screws around the 12th fret still surprise people the first time they notice them.",
+It is a good first guitar. Small and light, comfortable to pick up, sounds pleasant with a slightly thin quality compared to a full-size dreadnought, which is the honest trade-off for the size.`,
+    shortStory: "Bought in Music Maker in Dublin as a gift for Suzanne. The visible neck screws around the 12th fret still surprise people the first time they notice them.",
     tags: ["acoustic", "taylor"],
     emoji: "🎵"
   },
@@ -370,18 +362,14 @@ It is a good first guitar. Small and light, comfortable to pick up, sounds pleas
       { src: "images/prs-singlecut-trem-2004/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Purchased at Music Arts Enterprises in Fort Lauderdale, a store that as far as I can tell is still trading. This was the final stop on an ambitious trip with my then-girlfriend, now wife, Suzanne, a road trip that went from New York to San Francisco before finishing in Florida. My aunt, with her customary generosity, put us up for the last leg. We visited the Everglades. We also visited music stores.
-
-PRS in 2004 were known primarily for their premium double cutaway guitars, the kind being played by Santana, Alex Lifeson and a substantial portion of the surviving nu-metal bands of the era. In 2001 they had released the Singlecut, their take on the Les Paul format, thick body, single cutaway, two volume and two tone controls. Gibson's response was a lawsuit, and for a period it was genuinely unclear whether PRS would be able to continue making it. That uncertainty made it feel more desirable, not less.
+    story: `PRS in 2004 were known primarily for their premium double cutaway guitars, the kind being played by Santana, Alex Lifeson and a substantial portion of the surviving nu-metal bands of the era. In 2001 they had released the Singlecut, their take on the Les Paul format, thick body, single cutaway, two volume and two tone controls. Gibson's response was a lawsuit, and for a period it was genuinely unclear whether PRS would be able to continue making it. That uncertainty made it feel more desirable, not less.
 
 What I actually bought was the Singlecut Trem, a variation on the original. The body is thinner, it has a tremolo, and with the coil splits it sits somewhere between a Les Paul and a Stratocaster depending on how you set it up. I have recorded it doing a reasonable impression of both. There is a cover of Dead Kennedys' Police Truck where it is firmly in surf-Strat territory, and a cover of the Melvins' Revolve where it is full Les Paul thickness. I will link both here.
 
-The neck is what PRS calls a Wide Fat profile. That description suggests something unwieldy but it is in practice a very comfortable C shape. I have seen people on forums describe it as too thin. It is not too thin. It is exactly right, or at least exactly right for me, which may be why this is the guitar I have played more than any other in the collection.
+The neck is what PRS calls a Wide Fat profile. That description suggests something unwieldy but it is in practice a very comfortable C shape. It is exactly right, or at least exactly right for me, which may be why this is the guitar I have played more than any other over the years.
 
-It is a cherry sunburst with a ten-top maple cap over a mahogany body, mahogany set neck, rosewood fretboard and PRS bird inlays. It is a beautiful guitar and I love it.
-
-In the same shop, on the same day, Suzanne bought her Fender Aerodyne Stratocaster. That guitar is also in the collection.`,
-    shortStory: "Bought at Music Arts Enterprises in Fort Lauderdale, on a road trip from New York to San Francisco with Suzanne. The guitar I have played more than any other. Cherry sunburst, ten-top, Wide Fat neck.",
+It is a cherry sunburst with a ten-top maple cap over a mahogany body, mahogany set neck, rosewood fretboard and PRS bird inlays. It is a beautiful guitar and I love it.`,
+    shortStory: "The guitar I have played more than any other. Cherry sunburst, ten-top, Wide Fat neck.",
     tags: ["electric", "humbucker", "prs", "florida"],
     emoji: "🎸"
   },
@@ -409,16 +397,14 @@ In the same shop, on the same day, Suzanne bought her Fender Aerodyne Stratocast
       { src: "images/fender-aerodyne-strat-2004/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Suzanne bought this in Music Arts Enterprises in Fort Lauderdale on the same day I bought the PRS Singlecut Trem. It is her guitar, though I have played and maintained it over the years.
+    story: `Suzanne's guitar, though I have played and maintained it over the years.
 
 The Aerodyne range has a strong reputation and this one bears it out. The heel is stamped "Crafted in Japan," which tells you what you need to know about the build quality. The body is basswood, which is lighter than the alder or ash you'd find on most Stratocasters, and the name presumably follows from there. The body is also carved differently to a standard Strat, slightly thinner and more contoured, which gives it a marginally more ergonomic feel and makes it sit a little smaller than comparable guitars.
 
 The look is the other thing. All black, matching headstock and pickguard, with a cream binding around the body. It has been described as a tuxedo look and that is exactly right. It is a handsome guitar.
 
-The one detail that surprises me is the neck radius. The Aerodyne presents as a modern, slightly sleek take on the Stratocaster, but the radius is a vintage 7.25 inches, which is rounder than you might expect given everything else about the guitar. It is not a problem in practice, I don't mind playing it, but it feels like a slight inconsistency in the design brief.
-
-What Suzanne paid for it in 2004 I cannot remember, but the prices these guitars fetch on Reverb today suggest it was a bargain.`,
-    shortStory: "Suzanne's guitar, bought at Music Arts Enterprises in Fort Lauderdale on the same day as the PRS. Crafted in Japan, all black with cream binding. A tuxedo Stratocaster.",
+The one detail that surprises me is the neck radius. The Aerodyne presents as a modern, slightly sleek take on the Stratocaster, but the radius is a vintage 7.25 inches, which is rounder than you might expect given everything else about the guitar.`,
+    shortStory: "Suzanne's guitar. Crafted in Japan, all black with cream binding. A tuxedo Stratocaster.",
     tags: ["electric", "single-coil", "fender", "japan"],
     emoji: "⚡"
   },
@@ -456,7 +442,7 @@ What Suzanne paid for it in 2004 I cannot remember, but the prices these guitars
 You really cannot go wrong with an SG Standard in Heritage Cherry. I am a huge AC/DC fan, and Therapy? are another band for whom the SG is central to both the look and the sound. There is a reason certain guitars become synonymous with certain kinds of music, and the SG is one of the clearest examples of that.
 
 The only work it needed was widening a few nut slots, which was a straightforward fix. The previous owner must have been pulling his hair out over tuning stability without ever identifying the cause. Once that was sorted, it was a perfect player. Light, slim contour neck, classic rock tones on demand. No notes.`,
-    shortStory: "Bought second hand on Adverts.ie, collected from Balbriggan after a tense wait by the phone. Heritage Cherry, sorted a sticky nut and it has been perfect ever since.",
+    shortStory: "Bought second hand on Adverts.ie, collected from Balbriggan after a tense wait by the phone. Heritage Cherry, sorted a typical issue and it has been perfect ever since.",
     tags: ["electric", "humbucker", "gibson"],
     emoji: "🎸"
   },
@@ -488,13 +474,13 @@ The only work it needed was widening a few nut slots, which was a straightforwar
       { src: "images/ibanez-rg2550z-2007/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Ordered from Thomann. This is one of the earlier versions of the RG2550Z, which means dot inlays rather than the sharktooth markers that appeared on later runs, a detail that matters to nobody except the people it matters to enormously.
+    story: `Ordered from Thomann. This is one of the earlier versions of the RG2550Z, which means dot inlays rather than the sharktooth markers that appeared on later runs.
 
-It is a Japanese-made Prestige series guitar and it shows. The Wizard neck profile is genuinely thin, which is either exactly what you want or completely wrong for you depending on your hands, and for me it is exactly right. The Edge Zero tremolo is well engineered and not the ordeal that some Floyd Rose systems can be. If you are already comfortable with a Floyd, the transition is straightforward.
+It is a Japanese-made Prestige series guitar and it shows. The Wizard neck profile is genuinely thin, which is either exactly what you want or completely wrong for you depending on your hands, and for me it took some adjustment. The Edge Zero tremolo is well engineered and familiar to anyone who has used a Flord Rose. If you are already comfortable with a Floyd, the transition is straightforward.
 
-The stock Ibanez pickups were acceptable but replaceable, and I replaced them. The bridge now has a DiMarzio Steve's Special and the neck a DiMarzio Breed. The inspiration was almost certainly John Petrucci, who was an Ibanez player at the time and associated with those pickups on at least some of his guitars. Installing them was also my first serious soldering project on a guitar, and it went well enough that I have not had to revisit it since. The single coil in the middle position remains stock, mostly because I rarely use it.
+The stock Ibanez pickups were acceptable but I replaced the humbuckers. The bridge now has a DiMarzio Steve's Special and the neck a DiMarzio Breed. The inspiration was almost certainly John Petrucci, who was an Ibanez player at the time and associated with those pickups on at least some of his guitars. Installing them was also my first serious soldering project on a guitar, and it went well enough that I have not had to revisit it since. The single coil in the middle position remains stock, mostly because I rarely use it.
 
-Most recently this guitar has been strung heavily and tuned to B, where I used it to record a Carcass cover. It has been sitting in that configuration since and is overdue a proper setup back to E standard. There is also a stripped intonation screw on the bridge that needs attention before that can happen properly. It is on the list.`,
+Most recently this guitar has been strung heavily and tuned to B, where I used it to record heavier covers. It has been sitting in that configuration since and is overdue a proper setup back to E standard. There is also a stripped intonation screw on the bridge that needs attention before that can happen properly. It is on the list.`,
     shortStory: "Ordered from Thomann. Japanese Prestige, Wizard neck, Edge Zero trem. Upgraded to DiMarzio Steve's Special and Breed, inspired by Petrucci. Currently tuned to B and awaiting a setup.",
     tags: ["electric", "humbucker", "ibanez", "japan"],
     emoji: "⚡"
@@ -528,10 +514,10 @@ Most recently this guitar has been strung heavily and tuned to B, where I used i
       { src: "images/gl-legacy-blue-2008/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Bought in New York alongside the black Legacy in the same transaction. G&L was one of the companies Leo Fender founded after leaving Fender, and the story goes that this is where he refined his ideas and built what he considered the definitive Stratocaster-style guitar. Whether or not you buy that framing, these are exceptional instruments for the money. US-made in the Fullerton factory, premium components throughout, and at the time a few hundred dollars each. Fender acquired G&L and subsequently wound the brand down, which is a shame. I am glad I have both when I do.
+    story: `G&L was one of the companies Leo Fender founded after leaving Fender, and the story goes that this is where he refined his ideas and built what he considered the definitive Stratocaster-style guitar. Whether or not you buy that framing, these are exceptional instruments for the money. US-made in the Fullerton factory, premium components throughout, and at the time a few hundred dollars each. Fender acquired G&L and subsequently wound the brand down, which is a shame.
 
-This is my favourite of the two. Rosewood fretboard, blue finish, and it has been a straightforward, reliable player since the day I bought it. No drama, no modifications, no complaints.`,
-    shortStory: "Bought in New York alongside the black Legacy. Leo Fender's refined take on his own Stratocaster design. The blue one with the rosewood board is the keeper.",
+Rosewood fretboard, blue finish, and it has been a straightforward, reliable player since the day I bought it. No drama, no modifications, no complaints.`,
+    shortStory: "Leo Fender's refined take on his own Stratocaster design. The blue one with the rosewood board is the keeper.",
     tags: ["electric", "single-coil", "gl"],
     emoji: "⚡"
   },
@@ -559,12 +545,12 @@ This is my favourite of the two. Rosewood fretboard, blue finish, and it has bee
       { src: "images/gl-legacy-black-2008/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Bought in New York on the same trip as the blue Legacy. Same guitar, different finish, black body, maple fretboard.
+    story: `The more problematic G&L Legacy. Same guitar, different finish, black body, maple fretboard.
 
-This one has had a harder life. At some point the truss rod snapped, which left me with a guitar body and a useless neck. G&L, unlike Fender, never sold replacement necks separately, which made sourcing one surprisingly difficult. After some searching I found MusiKraft, a company that builds custom necks to order, and commissioned a replacement with the following spec: quartersawn maple shaft, quartersawn rock maple fretboard with a 12 inch radius, C81/94 back profile, medium jumbo stainless frets, semi-rolled fingerboard edges, oil finish and a roasting treatment on the maple. The total came to $514, which was roughly the cost of the guitar itself. The alternative was a body gathering dust, so the maths made sense.
+This one has had a harder life. At some point the truss rod snapped, which left me with a guitar body and a useless neck. G&L, unlike Fender, never sold replacement necks separately, which made sourcing one surprisingly difficult. After some searching I found MusiKraft, a company that builds custom necks to order, and commissioned a replacement with the following spec: quartersawn maple shaft, quartersawn rock maple fretboard with a 12 inch radius, C81/94 back profile, medium jumbo stainless frets, semi-rolled fingerboard edges, oil finish and a roasting treatment on the maple.
 
 The MusiKraft neck is excellent. My one criticism is that the nut slots were cut a little low, but that is not a difficult fix and the neck itself is exceptional. The guitar plays well and the roasted maple has a feel and stability that I really like.`,
-    shortStory: "The black Legacy from the same New York trip as the blue. The truss rod eventually snapped, and with no factory replacement available, I commissioned a custom quartersawn roasted maple neck from MusiKraft. Worth every cent.",
+    shortStory: "The black Legacy. The truss rod eventually snapped, and with no factory replacement available, I commissioned a custom quartersawn roasted maple neck from MusiKraft.",
     tags: ["electric", "single-coil", "gl"],
     emoji: "⚡"
   },
@@ -594,7 +580,7 @@ The MusiKraft neck is excellent. My one criticism is that the nut slots were cut
     audioSamples: [],
     story: `Having been thoroughly impressed by the RG2550Z, the logical next step was to go further. The J Custom is Ibanez's premium line, built in Japan to a higher specification than the standard Prestige range, and this one came from a reputable seller on eBay in Japan.
 
-Mine is in Black Onyx, a mahogany body with a flamed maple top and binding. It features the Tree of Life inlay running the length of the fretboard, which is one of those details that looks excessive in photographs and extraordinary in person. The pickup configuration is all DiMarzio from the factory: ToneZone in the bridge, True Velvet in the middle and Air Norton in the neck, which is a well-considered set. The tremolo system is an Edge Zero with a stabiliser mechanism that solves several of the traditional floating trem frustrations in one go. It stays in tune if you break a string, allows you to enable or disable the stabiliser depending on preference, and makes string changes considerably less of an ordeal. The arm can feel stiff with the stabiliser engaged but that is a minor trade-off.
+Mine is in Black Onyx, a mahogany body with a flamed maple top and binding. It features the Tree of Life inlay running the length of the fretboard, which is one of those details that looks excessive but is also really cool (to me). The pickup configuration is all DiMarzio from the factory: ToneZone in the bridge, True Velvet in the middle and Air Norton in the neck, which is a well-considered set. The tremolo system is an Edge Zero with a stabiliser mechanism that solves several of the traditional floating trem frustrations in one go. It stays in tune if you break a string, allows you to enable or disable the stabiliser depending on preference, and makes string changes considerably less of an ordeal. The arm can feel stiff with the stabiliser engaged but that is a minor trade-off.
 
 The one significant issue is the frets. For a new guitar from the J Custom line, they were not level, which is a disappointing quality control failure on an otherwise sublime instrument. I have spent considerable time with fret files and a fret rocker addressing the high spots myself, which is slow and unforgiving work given that the frets are stainless steel. It will eventually go to a professional tech for a final level and dress. Everything else about the guitar is, without exaggeration, perfect, the fit, the finish, the hardware, the feel of the mahogany and maple together. The fret situation is a frustrating asterisk on an otherwise exceptional instrument.`,
     shortStory: "Ibanez J Custom, ordered from Japan. Black Onyx with a flamed maple top and Tree of Life inlay. Sublime in every respect except the frets, which were unlevelled from the factory and have required considerable work.",
@@ -629,14 +615,14 @@ The one significant issue is the frets. For a new guitar from the J Custom line,
       { src: "images/esp-eclipse-ii-2008/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Ordered from Drum City Guitarland, based in Colorado, who are an excellent online retailer. Having owned the JH-3 since 1999, I knew exactly what I was getting into with the Eclipse shape and wanted another one.
+    story: `Having owned the JH-3, I knew exactly what I was getting into with the Eclipse shape and wanted another one.
 
-This is a slimmer body than the JH-3, finished in Arctic White, which has mellowed over the years into something closer to cream. It has the same active EMG configuration, 81 in the bridge, 60 in the neck, which makes it the natural choice whenever I am working in lower tunings. It has appeared on recordings of At The Gates, Gojira, Deftones and Turnstile covers, and it earns its place every time.
+This is a slimmer body than the JH-3, finished in Arctic White, which has mellowed over the years into something closer to cream. It has the same active EMG configuration, 81 in the bridge, 60 in the neck, which makes it a good choice whenever I am working in lower tunings. It has appeared on recordings of At The Gates, Gojira, Deftones and Turnstile covers, and it earns its place every time.
 
 As you would expect from a Japanese-built ESP, the construction is flawless. The stainless steel frets are exceptionally finished, which is a pointed contrast to the J Custom Ibanez that arrived around the same time with levelling issues. The only thing I would flag are the Gotoh locking tuners, which are somewhat complicated to deal with when changing strings. That is a minor inconvenience on a guitar that is otherwise a workhorse.
 
 It is one of the guitars that is always within reach. It is very hard to fault.`,
-    shortStory: "Ordered from Drum City Guitarland in Colorado. Arctic White Eclipse, now cream with age. The go-to for downtuned work — At The Gates, Gojira, Deftones, Turnstile. Perfectly made.",
+    shortStory: "Arctic White Eclipse, now cream with age. The go-to for downtuned work — At The Gates, Gojira, Deftones, Turnstile. Perfectly made.",
     tags: ["electric", "active-pickups", "esp", "japan"],
     emoji: "🤘"
   },
@@ -666,7 +652,7 @@ It is one of the guitars that is always within reach. It is very hard to fault.`
       { src: "images/washburn-acoustic-2010/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `In 2010 and into 2011, Suzanne and I travelled across Southeast Asia, taking in as many countries as we could. It was an extraordinary trip. It was also several months without a guitar, which I found increasingly difficult to manage.
+    story: `In 2010 and into 2011, Suzanne and I travelled across Southeast Asia, taking in as many countries as we could. It was an extraordinary trip. It was also several months without a guitar, which I really missed.
 
 I bought this in Thailand. It was not a sensible decision. It is a full-size dreadnought, and I travelled with it in a soft case that became my hand luggage for the remainder of the trip. This caused significant consternation at various points, mostly with Air Asia staff, but we got through. The heart wants what the heart wants.
 
@@ -674,8 +660,8 @@ If I were doing the same trip today I would make a different call. There are far
 
 The guitar itself is Korean-made and appears to be solid wood rather than laminate, though it has the feel of a budget instrument. The neck is thinner than you would expect and the sound lacks the richness and fullness of more premium acoustics. The Jasmine by Takamine, which cost a similar amount, is a noticeably better guitar.
 
-None of that matters much. This is the guitar that has covered more miles than anything else in the collection, and it has held up remarkably well given the life it has lived. I have a considerable fondness for it.`,
-    shortStory: "Bought in Thailand during a year-long trip across Southeast Asia. Travelled the rest of the journey as hand luggage in a soft case. Not a sensible decision. No regrets.",
+None of that matters much. This is the guitar that has covered more miles than anything else in the collection, and it has held up remarkably well given the life it has lived..`,
+    shortStory: "Bought in Thailand during a year-long trip across Southeast Asia. Travelled the rest of the journey as hand luggage in a soft case. Not a sensible decision.",
     tags: ["acoustic", "washburn"],
     emoji: "🎵"
   },
@@ -745,16 +731,16 @@ Neil, if you ever read this, it is ready and waiting for you.`,
       { src: "images/gibson-hummingbird-standard-2023/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `In 1999, in Mars Music in Fort Lauderdale, I played a Gibson Hummingbird in Heritage Cherry. I was sixteen years old and had no realistic prospect of buying it. I did not forget it.
+    story: `In 1999, I played a Gibson Hummingbird in Heritage Cherry. I did not forget it.
 
-Twenty-four years later, in April 2023, I bought one for my fortieth birthday. It was the guitar that ended the hiatus.
+Twenty-four years later, in April 2023, I had a chance to try a modern one.
 
-My tastes had shifted slightly in the intervening time. I went for a tobacco sunburst rather than the Heritage Cherry of the one I remembered, which I think suits the guitar even better. Everything else was exactly as I had expected, or perhaps as I had constructed it in memory over two and a half decades. The scale length, the feel of the neck, the tone and projection. It is an inspiring acoustic instrument in a way that is difficult to articulate without sounding hyperbolic.
+My tastes had shifted slightly in the intervening time. I went for a tobacco sunburst rather than the Heritage Cherry of the one I remembered, which I think suits the guitar even better. Everything else was exactly as I had expected, or perhaps as I had constructed it in memory over two and a half decades. The scale length, the feel of the neck, the tone and projection. It is an inspiring acoustic instrument in a way that is difficult to articulate.
 
-I bought it with a specific intention, a guitar that would age beautifully and be a companion for the rest of my life. That is not the way I think about most of the guitars in this collection, which arrived through impulse, opportunity or obsession. This one was deliberate.
+I bought it with a specific intention, a guitar that would age beautifully and be a companion for the rest of my life. It will age better than I will, I sudpect.
 
-I have used it to record Celtic fingerstyle pieces, and also, through the onboard pickup system with some distortion added, a cover of 1979 by the Smashing Pumpkins, which is exactly the kind of thing a Hummingbird should probably not be used for and was all the more enjoyable for it.`,
-    shortStory: "The guitar I first played in Florida in 1999 and thought about for twenty-four years. Bought for my fortieth birthday in April 2023. A companion for life.",
+I have used it to record Celtic fingerstyle pieces, and also, through the onboard pickup system with some distortion added, a cover of 1979 by the Smashing Pumpkins.`,
+    shortStory: "The guitar I first played in 1999 and thought about for twenty-four years. A companion for life.",
     tags: ["acoustic", "gibson"],
     emoji: "🎵"
   },
@@ -823,16 +809,14 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the ES-34
       { src: "images/fender-tvl-jazzmaster-2023/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `Purchased from Thomann in July 2023, not long after my fortieth birthday, at which point the guitars started arriving with some regularity again. Make of that what you will.
+    story: `This is the Troy Van Leeuwen signature Jazzmaster. The two reasons are straightforward. I have always loved the look of a Jazzmaster, and I am a big Queens of the Stone Age fan. Troy Van Leeuwen has been a member of QOTSA and plenty of other bands worth paying attention to, and his signature guitar is a genuinely considered instrument rather than a name-on-the-headstock exercise.
 
-This is the Troy Van Leeuwen signature Jazzmaster. The two reasons are straightforward. I have always loved the look of a Jazzmaster, and I am a big Queens of the Stone Age fan. Troy Van Leeuwen has been a member of QOTSA and plenty of other bands worth paying attention to, and his signature guitar is a genuinely considered instrument rather than a name-on-the-headstock exercise.
+It is built in the Fender Mexico factory but specced with premium US parts including the pickups, which puts it in a different category to a standard Mexican Fender. The colour is Oxblood, which is lovely, one of those finishes that looks different in every light. The block inlays are beautiful..
 
-It is built in the Fender Mexico factory but specced with premium US parts including the pickups, which puts it in a different category to a standard Mexican Fender. The colour is Oxblood, which is extraordinary, one of those finishes that looks different in every light. The block inlays are beautiful. It is a striking guitar.
+The Jazzmaster took some work to get right. I added shims to the neck pocket to correct the angle, which is not unusual for the model. The radius is 7.25 inches, the same vintage spec as the Aerodyne, and while I am fine with it there are plenty of players who would prefer something flatter and more modern. The neck itself is flatter than I expected given the overall vintage flavour of the guitar.
 
-The Jazzmaster took some work to get right. I added shims to the neck pocket to correct the angle, which is not unusual for the model. The radius is 7.25 inches, the same vintage spec as the Aerodyne, and while I am fine with it there are plenty of players who would prefer something flatter and more modern. The neck itself came in flatter than I expected given the overall vintage flavour of the guitar.
-
-Once set up to my preferences it is a joy. The tremolo is endlessly entertaining and the rhythm circuit, which confuses a lot of people on first encounter, rewards the time spent understanding it.`,
-    shortStory: "Bought from Thomann in July 2023, shortly after turning forty. Troy Van Leeuwen's signature Jazzmaster in Oxblood. QOTSA fandom made tangible.",
+Once set up to my preferences it is a joy. The tremolo is endlessly entertaining when the setup is right and the rhythm circuit, which confuses a lot of people on first encounter, rewards the time spent understanding it.`,
+    shortStory: "Troy Van Leeuwen's signature Jazzmaster in Oxblood. QOTSA fandom made tangible.",
     tags: ["electric", "single-coil", "fender", "mexico"],
     emoji: "⚡"
   },
@@ -895,16 +879,14 @@ It is, as you would expect from Yamaha, a real instrument rather than a toy. Wel
       { src: "images/gibson-es345-2024/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `I had always wanted a semi-hollow. Over the years I had tried various Epiphone Dots and Ibanez semi-hollows but the Gibson ES-335 was always the benchmark in my mind. The 345 is essentially a 335 in fancier clothing. My version does not feature the stereo outputs or Varitone controls of the vintage originals, but it retains the cosmetic details that make the 345 distinctive: split parallelogram inlays, which are the finest inlays Gibson offers in my opinion and also found on the Hummingbird, and multi-ply binding throughout.
-
-I purchased it from Peach Guitars in the UK, who have an exceptional selection. It arrived in May 2024.
+    story: `I had always liked semi-hollow guitars. Over the years I had tried various Epiphone Dots and Ibanez semi-hollows but the Gibson ES-335 was always the benchmark in my mind. The 345 is essentially a 335 in fancier clothing. My version does not feature the stereo outputs or Varitone controls of the vintage originals, but it retains the cosmetic details that make the 345 distinctive: split parallelogram inlays, which are the finest inlays Gibson offers in my opinion and also found on the Hummingbird, and multi-ply binding throughout.
 
 The finish is Vintage Burst with chrome hardware, the neck is reassuringly chunky, and the T-type pickups have turned out to be more versatile than I anticipated. I have spent a lot of time in the middle position, blending volume and tone controls, rolling everything back for cleans. They are lovely clean and equally good overdriven and distorted.
 
 What has surprised me most is how the semi-hollow format feels compared to a solidbody. There is a responsiveness and adaptability to it that is harder to achieve with a solid electric. I wrote this shortly after it arrived and I stand by it now, it just feels more alive.
 
 I have used it to record a cover of Reptilia by The Strokes, alongside the Telecaster. The choice was deliberate, the Strokes' guitar setup pairs a semi-hollow with a Telecaster, and having both in the collection made it possible to replicate that properly.`,
-    shortStory: "Bought from Peach Guitars in the UK, May 2024. A 335 in fancier clothing. Vintage Burst, chrome hardware, split parallelogram inlays. The first semi-hollow in the collection and immediately one of the favourites.",
+    shortStory: "A 335 in fancier clothing. Vintage Burst, chrome hardware, split parallelogram inlays. The first semi-hollow in the collection and immediately one of the favourites.",
     tags: ["electric", "semi-hollow", "humbucker", "gibson"],
     emoji: "🎸"
   },
@@ -935,16 +917,14 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the Telec
       { src: "images/yamaha-revstar-rsp02t-2024/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `A gift from Suzanne.
-
-Yamaha are one of those companies where the product almost doesn't matter, guitars, pianos, outboard motors, everything they make is built well and offers quality beyond its price point. This guitar is no exception. It is made in Japan, has their own P90-style pickups, stainless steel frets and arrived set up flawlessly out of the box. That last detail is rarer than it should be.
+    story: `Yamaha are one of those companies where the product almost doesn't matter, guitars, pianos, outboard motors, everything they make is built well and offers quality beyond its price point. This guitar is no exception. It is made in Japan, has their own P90-style pickups, stainless steel frets and arrived set up flawlessly out of the box.
 
 The look is excellent. Gold finish, cream pickups, a beautiful tailpiece. The Revstar is one of the more successful new guitar designs of recent years. It has a vintage appeal and sensibility while being genuinely original. The chambered body, reinforced neck and the range of pickup combinations available through the push-pull pots give it a modern versatility that the aesthetic does not immediately suggest.
 
 The P90s are my only set in the collection. I am aware they are technically single coil pickups, but they have a thickness and presence that sits somewhere between a true single coil and a humbucker in practice. They suit the guitar perfectly.
 
 Every time I pick this one up I end up playing Queens of the Stone Age riffs. It was the obvious choice when I recorded a cover of I Sat by the Ocean. It became my Josh Homme guitar for the session.`,
-    shortStory: "A gift from Suzanne. Japanese-made, P90s, stainless frets, arrived perfectly set up. Became the Josh Homme guitar the moment I plugged it in.",
+    shortStory: "Japanese-made, P90s, stainless frets, arrived perfectly set up. Became the Josh Homme guitar the moment I plugged it in.",
     tags: ["electric", "p90", "yamaha", "japan"],
     emoji: "🎸"
   },
