@@ -140,6 +140,7 @@ It remains one of the better guitars in the collection relative to what it cost.
     videos: [
       { id: "7njBfmiCTnA", title: "Tool — Stinkfist" },
       { id: "CrNajT1CdsU", title: "Refused — New Noise" },
+      { id: "t1kmVon8LEE", title: "Fu Manchu — Evil Eye" },
     ],
     images: [
       { src: "images/gibson-lp-smartwood-1999/main.jpg", caption: "Full length" },
@@ -315,7 +316,9 @@ Disco Stu has been in the collection ever since. It is not a subtle guitar. It i
     neck: "Mahogany / Ebony fretboard",
     pickups: "None",
     featured: false,
-    videos: [],
+    videos: [
+      { id: "G2C59K1Y9fc", title: "Mr Big — To Be With You" },
+    ],
     images: [
       { src: "images/taylor-big-baby/main.jpg", caption: "Full length" },
       { src: "images/taylor-big-baby/body.jpg", caption: "Body" },
@@ -506,6 +509,7 @@ Most recently this guitar has been strung heavily and tuned to B, where I used i
     videos: [
       { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
       { id: "ZWq0skIlCrE", title: "Pink Floyd — Time" },
+      { id: "syTRcI_quyg", title: "Muse — Plug In Baby" },
     ],
     images: [
       { src: "images/gl-legacy-blue-2008/main.jpg", caption: "Full length" },
@@ -644,9 +648,9 @@ It is one of the guitars that is always within reach. It is very hard to fault.`
     neck: "Mahogany",
     pickups: "None",
     featured: false,
-    videos: [],
-    images: [
-      { src: "images/washburn-acoustic-2010/main.jpg", caption: "Full length" },
+    videos: [
+      { id: "REyy5g0-vDk", title: "Blues Fingerstyle Piece" },
+    ],
       { src: "images/washburn-acoustic-2010/body.jpg", caption: "Body" },
       { src: "images/washburn-acoustic-2010/headstock.jpg", caption: "Headstock" },
       { src: "images/washburn-acoustic-2010/detail.jpg", caption: "Detail" },
@@ -722,7 +726,9 @@ Neil, if you ever read this, it is ready and waiting for you.`,
     featured: false,
     videos: [
       { id: "15wyD5NqdF0", title: "Smashing Pumpkins — 1979" },
-      { id: "JlC3h7cCUc0", title: "Celtic Fingerstyle" },
+      { id: "JlC3h7cCUc0", title: "Celtic Fingerstyle Piece" },
+      { id: "Mz8R_UnKuXc", title: "Celtic Fingerstyle Piece 2" },
+      { id: "CPsULwFUIvM", title: "Blues Fingerstyle Piece" },
     ],
     images: [
       { src: "images/gibson-hummingbird-standard-2023/main.jpg", caption: "Full length" },
@@ -801,6 +807,7 @@ I have used it to record a cover of Reptilia by The Strokes, alongside the ES-34
     videos: [
       { id: "u9dV4uezffI", title: "Queens of the Stone Age — I Sat by the Ocean" },
       { id: "pHRPGkdCNLo", title: "Rival Schools — Used for Glue" },
+      { id: "s-W-Ojj55tU", title: "Television — Marquee Moon" },
     ],
     images: [
       { src: "images/fender-tvl-jazzmaster-2023/main.jpg", caption: "Full length" },
