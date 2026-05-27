@@ -739,9 +739,7 @@ Neil, if you ever read this, it is ready and waiting for you.`,
       { src: "images/gibson-hummingbird-standard-2023/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `In 1999, I played a Gibson Hummingbird in Heritage Cherry. I did not forget it.
-
-Twenty-four years later, in April 2023, I had a chance to try a modern one.
+    story: `In 1999, I played a Gibson Hummingbird in Heritage Cherry. I did not forget it. Twenty-four years later, in April 2023, I had a chance to try a modern one.
 
 My tastes had shifted slightly in the intervening time. I went for a tobacco sunburst rather than the Heritage Cherry of the one I remembered, which I think suits the guitar even better. Everything else was exactly as I had expected, or perhaps as I had constructed it in memory over two and a half decades. The scale length, the feel of the neck, the tone and projection. It is an inspiring acoustic instrument in a way that is difficult to articulate.
 
