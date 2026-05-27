@@ -28,7 +28,7 @@ const guitars = [
       { src: "images/encore-strat-1995/detail.jpg", caption: "Detail" },
     ],
     audioSamples: [],
-    story: `It started with Kurt Cobain. I was eleven when he died in April 1994, and something about that moment, the music, the weight of it, the way it landed even in Kildare town, made me want to pick up a guitar. MTV was playing Nirvana, Pearl Jam and Soundgarden on rotation. There were cover bands doing that stuff in the local pubs, and every June during the Derby Festival, when the town filled up for the big race at the Curragh, a truck trailer was turned into a stage on the street and you'd get a couple of nights of it live. One of those local bands featured a guitarist called Padraig Burke (Podge), who would later become my guitar teacher and the person who actually got me started.
+    story: `It started with Kurt Cobain. When he died in April 1994, and something about that moment, the music, the weight of it, the way it landed even in Kildare town, made me want to pick up a guitar. MTV was playing Nirvana, Pearl Jam and Soundgarden on rotation. There were cover bands doing that stuff in the local pubs, and every June during the Derby Festival, when the town filled up for the big race at the Curragh, a truck trailer was turned into a stage on the street and you'd get a couple of nights of it live. One of those local bands featured a guitarist called Padraig Burke (Podge), who would later become my guitar teacher and the person who actually got me started.
 
 By the following year I had saved up enough. The money came the way most of my money came at that age: doing Summer jobs. Somewhere around two hundred Irish punts, which took a while.
 
