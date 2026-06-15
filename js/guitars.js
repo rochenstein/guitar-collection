@@ -9,7 +9,7 @@ const guitars = [
     id: "encore-strat-1995",
     number: "01",
     make: "Encore",
-    model: "Stratocaster copy",
+    model: "Stratocaster",
     year: 1995,
     country: "Unknown",
     acquired: "1995",
