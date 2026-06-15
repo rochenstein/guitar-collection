@@ -75,7 +75,7 @@ What I remember most about it from those years is the stickers. Wesley documente
 
 It was a noticeably nicer instrument than my Encore. Wesley was left handed but played right handed, as he would have, given how difficult it was to find a left handed guitar in Ireland in the mid nineties.
 
-I inherited it in 2002, after Wesley passed away. I haven't modified it. The pickups, wiring and hardware are all original. I change the strings occasionally and keep it set up, but otherwise it stays as it was. Whatever stickers remain are his.
+I inherited it in 2002, after Wesley passed away. I haven't modified it. The pickups, wiring and hardware are all original. I change the strings occasionally and keep it set up, but otherwise it stays as it was.
 
 It is the most sentimental item in the collection. The later half of the nineties in Kildare was a formative time, the years when I found music and found that playing guitar was something I genuinely wanted to do. Wesley was part of all of that. This guitar is a reminder of it.`,
     shortStory: "My cousin's guitar, bought on the same day as my Encore in 1995. I inherited it in 2002.",
