@@ -37,7 +37,10 @@ function initCollection() {
 
   function applyFilter(tag) {
     var filtered = tag === 'all' ? guitars : guitars.filter(function(g) { return g.tags.indexOf(tag) !== -1; });
-    renderCards(filtered);
+    var sorted = filtered.slice().sort(function(a, b) {
+      return (a.year || a.acquiredYear) - (b.year || b.acquiredYear);
+    });
+    renderCards(sorted);
     document.querySelectorAll('.filter-btn').forEach(function(b) {
       b.classList.toggle('active', b.dataset.filter === tag);
     });
@@ -50,7 +53,10 @@ function initCollection() {
     });
   }
 
-  renderCards(guitars);
+  var sortedGuitars = guitars.slice().sort(function(a, b) {
+    return (a.year || a.acquiredYear) - (b.year || b.acquiredYear);
+  });
+  renderCards(sortedGuitars);
 }
 
 if (document.readyState === 'loading') {
