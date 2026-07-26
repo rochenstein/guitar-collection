@@ -28,7 +28,7 @@ function initGuitar() {
 
   if (images.length > 0) {
     var galleryHtml =
-      '<img id="main-photo" src="../' + images[0].src + '" alt="' + guitar.make + ' ' + guitar.model + '" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.closest(\'.guitar-hero-gallery\').innerHTML=\'<span style=&quot;font-size:14rem;opacity:0.18;&quot;>' + guitar.emoji + '</span>\'">';
+      '<img id="main-photo" src="../' + images[0].src + '" alt="' + guitar.make + ' ' + guitar.model + '" style="width:100%;display:block;" onerror="this.closest(\'.guitar-hero-gallery\').innerHTML=\'<span style=&quot;font-size:14rem;opacity:0.18;&quot;>' + guitar.emoji + '</span>\'">';
 
     if (images.length > 1) {
       galleryHtml += '<div style="position:absolute;bottom:1rem;left:1rem;display:flex;gap:0.5rem;">';
