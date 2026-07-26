@@ -432,6 +432,7 @@ The one detail that surprises me is the neck radius. The Aerodyne presents as a 
     videos: [
       { id: "KZal9FGY_5g", title: "The Cars — Just What I Needed" },
       { id: "qPBqbQpURTc", title: "Therapy? — Screamager" },
+      { id: "tBB7_HhEbvU", title: "Sick Of It All — Call To Arms" },
     ],
     images: [
       { src: "images/gibson-sg-standard-2006/main.jpg", caption: "Full length" },
@@ -691,6 +692,7 @@ None of that matters much. This is the guitar that has covered more miles than a
     featured: false,
     videos: [
       { id: "RcKGPUw2d0A", title: "Turnstile — Seein' Stars" },
+      { id: "tBB7_HhEbvU", title: "Sick Of It All — Call To Arms" },
     ],
     images: [
       { src: "images/squier-p-bass/main.jpg", caption: "Full length" },
